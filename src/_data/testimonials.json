@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Simon Gregory",
+    "service": "iPhone repair",
+    "text": "I was really impressed with Sam's speed and knowledge. And for a great price. Will defo be using him again.",
+    "pageType": "homepage"
+  },
+  {
+    "name": "Knights Damp",
+    "service": "iPhone repair",
+    "text": "Brilliant, can't recommend this guy Sam enough, comes out fixes your problem, so easy, he knows his business.",
+    "pageType": "homepage"
+  },
+  {
+    "name": "Charlene Fewell",
+    "service": "iPhone repair",
+    "text": "Really great communication from Sam, speedy repair. Highly recommend.",
+    "pageType": "homepage"
+  },
+  {
+    "name": "CRAVE",
+    "service": "iPhone and iPad repair",
+    "text": "Have been using Sam for a good few years now and always super happy with the service. I'm able to get iPhones and iPads repaired, cheaply, conveniently and super quickly. Top man.",
+    "pageType": "services"
+  },
+  {
+    "name": "Shirley Cherry",
+    "service": "Screen replacement",
+    "text": "So quickly came out to me and replaced my broken screen and much cheaper than most prices I was quoted. Also gave some good advice. 5 stars from me.",
+    "pageType": "screen"
+  },
+  {
+    "name": "S CH",
+    "service": "Charging port repair",
+    "location": "Ashford",
+    "text": "I can't recommend Kent iPhone Repair enough. Sam came straight out to me in Ashford and fixed my iPhone 13 charging port within 10 minutes. The phone had been temperamental for a while and would only charge at certain angles, and my Apple CarPlay kept disconnecting. Sam knew exactly what the issue was, explained everything clearly, and had it repaired incredibly quickly. My phone is now as good as new. Friendly, professional, efficient and very reasonably priced.",
+    "pageType": "charging"
+  },
+  {
+    "name": "Deborah Francis",
+    "service": "iPad charging port repair",
+    "text": "Oh my gosh, I can't believe how quick Sam responded to my initial message to see if he could fix the iPad charger portal on my iPad. Then the very next day by 9.18am Sam had fixed the charging portal on my iPad within 10 minutes. Fantastic Customer Service, fantastic speed to fix my iPad and on top of all of that the most extremely friendly and helpful. Would I use them again, Absolutely! Would I recommend Sam, Absolutely!",
+    "pageType": "charging"
+  },
+  {
+    "name": "Linda Grant",
+    "service": "Screen replacement",
+    "text": "Would highly recommend this service. Sam came out to my house literally the day after phoning him and replaced my screen within 10 minutes! He's polite, friendly and super helpful. Will definitely call on him again for any future phone issues! Thanks Sam!",
+    "pageType": "screen"
+  },
+  {
+    "name": "Martine Keen",
+    "service": "iPhone repair",
+    "text": "Excellent service from start to finish. Sam was responsive, professional and had my phone fixed in no time. Couldn't ask for better.",
+    "pageType": "homepage"
+  },
+  {
+    "name": "Susan Chalk",
+    "service": "Same-day smashed screen repair",
+    "text": "I booked my repair (smashed iPhone screen) and within 2hrs it was being repaired - without me even leaving the house. Very prompt response to messages and very friendly and polite service. I will definitely use Kent iPhone Repair again and will recommend them as well.",
+    "pageType": "screen"
+  },
+  {
+    "name": "Nina Batsford",
+    "service": "Screen replacement",
+    "text": "I found Kent Repair after searching for a screen repair service. Messaged & got a quick reply from Sam. After a couple of messages I was booked in. Sam came to the house, I gave him my phone with the cracked screen, he went out to his vehicle & 10 mins later he was back with my phone & a new screen. Excellent, friendly & hassle free service would 100% recommend & probably the cheapest you'll find.",
+    "pageType": "screen"
+  },
+  {
+    "name": "Sinead de Nogla",
+    "service": "Battery replacement",
+    "location": "Ashford",
+    "text": "Prompt response to initial query yesterday. Arrived promptly this morning and had battery changed within minutes avoiding inconvenience for me having to go to a store. Very polite and courteous.",
+    "pageType": "battery"
+  },
+  {
+    "name": "Joe Temple",
+    "service": "Screen and battery repair",
+    "text": "I've used Sam a couple of times now, once to replace a battery and once a screen. Very well priced. He also comes to you and is very efficient in doing so. Will use him again 100%.",
+    "pageType": "services"
+  },
+  {
+    "name": "Adam Finch",
+    "service": "Battery replacement",
+    "location": "Faversham",
+    "text": "Fantastic service from Sam, arrived when he said he would and offered a 'no money' solution first of cleaning the contacts for my phone's battery first to see if that fixes it. It didn't so Sam returned with a new battery, installed it in minutes and couldn't have been more friendly and knowledgeable. Great price as well. Highly recommended.",
+    "pageType": "battery"
+  },
+  {
+    "name": "Abbie Lawton",
+    "service": "Charging port repair",
+    "text": "Such a great service, quick responses and quick fixes, Sam came to change my charging port on Saturday, unfortunately the damage was deeper than just the charger port so Sam came to my work place and fixed the problem within an hour, would definitely recommend if you need your phone fixed.",
+    "pageType": "charging"
+  }
+]

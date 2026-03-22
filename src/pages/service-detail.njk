@@ -1,0 +1,140 @@
+---
+layout: layouts/base.njk
+pagination:
+  addAllPagesToCollections: true
+  data: services
+  size: 1
+  alias: service
+permalink: "/{{ service.slug }}/"
+eleventyComputed:
+  title: "{{ service.heroTitle }}"
+  seoTitle: "{{ service.heroTitle }} | Kent iPhone Repair"
+  seoDescription: "{{ service.heroDescription }}"
+---
+
+{# ── Hero Section ── #}
+{% set heroTitle = service.heroTitle %}
+{% set heroDescription = service.heroDescription %}
+{% set heroImage = "/img/repair/repair-" + service.icon + ".webp" %}
+{% set heroImageAlt = service.name + " in Kent" %}
+{% include "partials/hero.njk" %}
+
+{# ── What We Fix - Issues Grid ── #}
+{% if service.issues and service.issues.length %}
+<section class="issues-grid" aria-labelledby="issues-heading">
+  <div class="issues-grid__container">
+    <h2 class="issues-grid__heading" id="issues-heading">Common {{ service.shortName }} Issues We Fix</h2>
+    <div class="issues-grid__grid">
+      {% for issue in service.issues %}
+      <article class="issues-grid__card">
+        <h3 class="issues-grid__card-title">{{ issue.title }}</h3>
+        <p class="issues-grid__card-text">{{ issue.text }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# ── How It Works ── #}
+{% if service.steps and service.steps.length %}
+<section class="how-it-works how-it-works--service" aria-labelledby="service-how-it-works-heading">
+  <div class="how-it-works__container">
+    <h2 class="how-it-works__heading" id="service-how-it-works-heading">How It Works</h2>
+    <div class="how-it-works__cta-top">
+      <a href="/contact/" class="btn btn--primary">Book Now</a>
+    </div>
+    <div class="how-it-works__grid">
+      {% for step in service.steps %}
+      <article class="how-it-works__step">
+        <div class="how-it-works__step-number" aria-hidden="true">{{ loop.index }}</div>
+        <h3 class="how-it-works__step-title">Step {{ loop.index }}: {{ step.title }}</h3>
+        <p class="how-it-works__step-description">{{ step.text }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# ── Models Covered ── #}
+<section class="models-covered" aria-labelledby="models-heading">
+  <div class="models-covered__container">
+    <h2 class="models-covered__heading" id="models-heading">iPhone Models We Cover</h2>
+    <p class="models-covered__intro">We provide {{ service.shortName | lower }} for all iPhone models, from the iPhone 5 through to the latest iPhone 16 range.</p>
+    <ul class="models-covered__list">
+      {% for model in iphoneModels %}
+      <li class="models-covered__item">{{ model.name }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# ── Areas Served ── #}
+{% include "partials/areas-served.njk" %}
+
+{# ── Area Links for This Service (all locations) ── #}
+<section class="cross-links" aria-labelledby="area-links-heading">
+  <div class="cross-links__container">
+    <h2 class="cross-links__heading" id="area-links-heading">{{ service.name }} Across Kent</h2>
+    <ul class="cross-links__list">
+      {% for loc in locations %}
+        {% set locSlug = loc.slug | replace("-iphone-repair", "") %}
+        <li class="cross-links__item">
+          <a href="/{{ locSlug }}-{{ service.slug }}/" class="cross-links__link">{{ loc.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# ── Testimonials ── #}
+{% set testimonialSet = service.icon %}
+{% include "partials/testimonials.njk" %}
+
+{# ── Contact Form ── #}
+{% include "partials/contact-form.njk" %}
+
+{# ── Why Us ── #}
+{% if service.whyTitle %}
+<section class="why-us" aria-labelledby="why-us-service-heading">
+  <div class="why-us__container">
+    <h2 class="why-us__heading" id="why-us-service-heading">{{ service.whyTitle }}</h2>
+    <p class="why-us__text">{{ service.whyText }}</p>
+  </div>
+</section>
+{% endif %}
+
+{# ── CTA Banner ── #}
+{% set ctaHeading = service.ctaTitle %}
+{% set ctaText = service.ctaText %}
+{% include "partials/cta-banner.njk" %}
+
+{# ── Related Links ── #}
+{% if service.relatedLinks and service.relatedLinks.length %}
+<section class="related-links" aria-labelledby="related-links-heading">
+  <div class="related-links__container">
+    <h2 class="related-links__heading" id="related-links-heading">Related {{ service.shortName }} Pages</h2>
+    <ul class="related-links__list">
+      {% for link in service.relatedLinks %}
+      <li class="related-links__item">
+        <a href="{{ link.url }}" class="related-links__link">{{ link.text }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{# ── Bottom CTA ── #}
+{% if service.bottomCta %}
+<section class="bottom-cta" aria-labelledby="bottom-cta-heading">
+  <div class="bottom-cta__container">
+    <p class="bottom-cta__text">{{ service.bottomCta }}</p>
+    <a href="/contact/" class="btn btn--primary bottom-cta__btn">Book Now</a>
+  </div>
+</section>
+{% endif %}
+
+{# ── Nearby Services ── #}
+{% include "partials/nearby-services.njk" %}

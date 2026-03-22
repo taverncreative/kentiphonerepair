@@ -1,0 +1,90 @@
+---
+layout: layouts/base.njk
+pagination:
+  addAllPagesToCollections: true
+  data: longtail
+  size: 1
+  alias: page
+permalink: "/{{ page.slug }}/"
+eleventyComputed:
+  title: "{{ page.heroTitle }}"
+  seoTitle: "{{ page.heroTitle }} | Kent iPhone Repair"
+  seoDescription: "{{ page.metaDescription }}"
+---
+
+{# ── Hero Section ── #}
+{% set heroTitle = page.heroTitle %}
+{% set heroDescription = page.heroDescription %}
+{% set heroImage = page.heroImage or "/img/repair/repair-screen.webp" %}
+{% set heroImageAlt = page.heroTitle %}
+{% include "partials/hero.njk" %}
+
+{# ── Content Blocks ── #}
+{% if page.contentBlocks and page.contentBlocks.length %}
+<section class="content-blocks" aria-labelledby="content-blocks-heading">
+  <div class="content-blocks__container">
+    <h2 class="visually-hidden" id="content-blocks-heading">{{ page.heroTitle }}</h2>
+    {% for block in page.contentBlocks %}
+    <div class="content-block">
+      {% if block.heading %}
+      <h2 class="content-block__heading">{{ block.heading }}</h2>
+      {% endif %}
+      {% if block.text %}
+      <p class="content-block__text">{{ block.text }}</p>
+      {% endif %}
+      {% if block.bullets and block.bullets.length %}
+      <ul class="content-block__list">
+        {% for bullet in block.bullets %}
+        <li>{{ bullet }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if block.image %}
+      <div class="content-block__image-wrapper">
+        <img src="{{ block.image }}" alt="{{ block.imageAlt or block.heading }}" class="content-block__image" width="600" height="400" loading="lazy">
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{# ── Get This Repair Near You ── #}
+<section class="cross-links" aria-labelledby="longtail-locations-heading">
+  <div class="cross-links__container">
+    <h2 class="cross-links__heading" id="longtail-locations-heading">Get This Repair Near You</h2>
+    <p style="color:var(--text-light);font-size:.9rem;margin-bottom:16px">We provide mobile iPhone repairs across Kent. Find your nearest service:</p>
+    <ul class="cross-links__list">
+      {% for loc in locations %}
+        <li class="cross-links__item">
+          <a href="/{{ loc.slug }}/" class="cross-links__link">{{ loc.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# ── Services Overview ── #}
+<section class="services-overview" aria-labelledby="longtail-services-heading">
+  <div class="services-overview__container">
+    <h2 class="services-overview__heading" id="longtail-services-heading">Our iPhone Repair Services</h2>
+    <div class="services-overview__grid">
+      {% for service in services %}
+      <article class="services-overview__card">
+        <h3 class="services-overview__card-title">{{ service.name }}</h3>
+        <p class="services-overview__card-text">{{ service.description }}</p>
+        <a href="/{{ service.slug }}/" class="btn btn--secondary services-overview__card-link">Learn More</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# ── Contact Form ── #}
+{% include "partials/contact-form.njk" %}
+
+{# ── CTA Banner ── #}
+{% set ctaHeading = page.ctaTitle or "Fast, Mobile iPhone Repairs Across Kent" %}
+{% set ctaText = page.ctaText or "Don't wait around for your iPhone to be fixed. We come to your home, office, or wherever suits you best - with most repairs done in under 30 minutes. Get in touch today for a free, no-obligation quote." %}
+{% include "partials/cta-banner.njk" %}

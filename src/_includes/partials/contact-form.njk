@@ -1,0 +1,108 @@
+<section class="contact-form-section" aria-labelledby="contact-form-heading">
+  <div class="contact-form-section__container">
+    <div class="contact-form-section__grid">
+
+      {# Left Column: Text #}
+      <div class="contact-form-section__text">
+        <h2 class="contact-form-section__heading" id="contact-form-heading">Get a Fast iPhone Repair Quote Today</h2>
+        <p>Need a quick, reliable iPhone repair? Send us your details and we'll get back to you with a quote - usually within minutes.</p>
+        <p>We offer a fully mobile service across Kent, so there's no need to visit a shop. Just tell us what's wrong, and we'll come to you at a time that suits.</p>
+        <p>Whether it's a cracked screen, dead battery, or faulty charging port - we've got you covered with fast, affordable repairs at your doorstep.</p>
+      </div>
+
+      {# Right Column: Form #}
+      <div class="contact-form-section__form-wrapper">
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+
+          {# Hidden field for page source #}
+          <input type="hidden" name="_source" value="{{ page.url }}">
+
+          <div class="contact-form__group">
+            <label for="contact-name" class="contact-form__label">Name</label>
+            <input
+              type="text"
+              id="contact-name"
+              name="name"
+              class="contact-form__input"
+              required
+              autocomplete="name"
+              placeholder="Your full name"
+            >
+          </div>
+
+          <div class="contact-form__group">
+            <label for="contact-phone" class="contact-form__label">Phone Number</label>
+            <input
+              type="tel"
+              id="contact-phone"
+              name="phone"
+              class="contact-form__input"
+              required
+              autocomplete="tel"
+              placeholder="07xxx xxxxxx"
+            >
+          </div>
+
+          <div class="contact-form__group">
+            <label for="contact-email" class="contact-form__label">Email</label>
+            <input
+              type="email"
+              id="contact-email"
+              name="email"
+              class="contact-form__input"
+              required
+              autocomplete="email"
+              placeholder="you@example.com"
+            >
+          </div>
+
+          <div class="contact-form__group">
+            <label for="contact-model" class="contact-form__label">iPhone Model</label>
+            <select
+              id="contact-model"
+              name="model"
+              class="contact-form__select"
+              required
+            >
+              <option value="">Select your iPhone model...</option>
+              {% for model in iphoneModels %}
+                <option value="{{ model.slug }}">{{ model.name }}</option>
+              {% endfor %}
+            </select>
+          </div>
+
+          <div class="contact-form__group">
+            <label for="contact-postcode" class="contact-form__label">Postcode</label>
+            <input
+              type="text"
+              id="contact-postcode"
+              name="postcode"
+              class="contact-form__input"
+              required
+              autocomplete="postal-code"
+              placeholder="e.g. CT1 1AA"
+            >
+          </div>
+
+          <div class="contact-form__group">
+            <label for="contact-fault" class="contact-form__label">Fault</label>
+            <textarea
+              id="contact-fault"
+              name="fault"
+              class="contact-form__textarea"
+              rows="4"
+              required
+              placeholder="Describe the issue with your iPhone..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary contact-form__submit">
+            Get a Quote
+          </button>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>

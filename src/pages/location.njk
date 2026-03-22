@@ -1,0 +1,102 @@
+---
+layout: layouts/base.njk
+pagination:
+  addAllPagesToCollections: true
+  data: locations
+  size: 1
+  alias: location
+permalink: "/{{ location.slug }}/"
+eleventyComputed:
+  title: "{{ location.heroTitle }}"
+  seoTitle: "{{ location.heroTitle }} | Kent iPhone Repair"
+  seoDescription: "{{ location.heroDescription }}"
+---
+
+{# ── Hero Section ── #}
+{% set heroTitle = location.heroTitle %}
+{% set heroDescription = location.heroDescription %}
+{% set heroImage = location.heroImage or "/img/repair/driving.webp" %}
+{% set heroImageAlt = "iPhone repair service in " + location.name %}
+{% include "partials/hero.njk" %}
+
+{# ── Location Intro ── #}
+{% if location.introText %}
+<section class="loc-intro" aria-labelledby="location-intro-heading">
+  <div class="loc-intro__container">
+    <h2 class="loc-intro__heading" id="location-intro-heading" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">iPhone Repair in {{ location.name }}</h2>
+    <p class="loc-intro__text">{{ location.introText }}</p>
+  </div>
+</section>
+{% endif %}
+
+{# ── Services Offered (links to location+service pages) ── #}
+{% set locSlug = location.slug | replace("-iphone-repair", "") %}
+<section class="location-services" aria-labelledby="location-services-heading">
+  <div class="location-services__container">
+    <h2 class="location-services__heading" id="location-services-heading">Our Services in {{ location.name }}</h2>
+    <div class="location-services__grid">
+      <article class="location-services__card">
+        <h3 class="location-services__card-title">iPhone Screen Repair</h3>
+        <p class="location-services__card-text">Cracked, smashed, or unresponsive screen? We replace iPhone screens on-site in {{ location.name }} – most repairs take under 30 minutes.</p>
+        <a href="/{{ locSlug }}-iphone-screen-repair/" class="btn btn--outline">Screen Repair in {{ location.name }}</a>
+      </article>
+      <article class="location-services__card">
+        <h3 class="location-services__card-title">iPhone Battery Replacement</h3>
+        <p class="location-services__card-text">Battery draining fast or phone shutting down? We replace iPhone batteries at your home or workplace in {{ location.name }}.</p>
+        <a href="/{{ locSlug }}-iphone-battery-replacement/" class="btn btn--outline">Battery Replacement in {{ location.name }}</a>
+      </article>
+      <article class="location-services__card">
+        <h3 class="location-services__card-title">Charging Port Repair</h3>
+        <p class="location-services__card-text">Phone won't charge or only charges at certain angles? We fix charging port issues on-site in {{ location.name }}.</p>
+        <a href="/{{ locSlug }}-iphone-charging-port-repair/" class="btn btn--outline">Charging Port Repair in {{ location.name }}</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+{# ── How It Works ── #}
+{% include "partials/how-it-works.njk" %}
+
+{# ── Models Covered ── #}
+<section class="models-covered" aria-labelledby="location-models-heading">
+  <div class="models-covered__container">
+    <h2 class="models-covered__heading" id="location-models-heading">iPhone Models We Repair in {{ location.name }}</h2>
+    <ul class="models-covered__list">
+      {% for model in iphoneModels %}
+      <li class="models-covered__item">{{ model.name }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# ── Areas Served ── #}
+{% include "partials/areas-served.njk" %}
+
+{# ── Testimonials ── #}
+{% set testimonialSet = location.testimonialSet or false %}
+{% include "partials/testimonials.njk" %}
+
+{# ── Contact Form ── #}
+{% include "partials/contact-form.njk" %}
+
+{# ── CTA Banner ── #}
+{% set ctaHeading = "iPhone Repair in " + location.name + " - Book Today" %}
+{% set ctaText = "Need a fast iPhone repair in " + location.name + "? We come to your home or workplace and fix your phone on the spot. No call-out fee, no hassle. Get in touch today." %}
+{% include "partials/cta-banner.njk" %}
+
+{# ── Nearby Location Links ── #}
+{% if location.nearbyAreas and location.nearbyAreas.length %}
+<section class="cross-links" aria-labelledby="nearby-locations-heading">
+  <div class="cross-links__container">
+    <h2 class="cross-links__heading" id="nearby-locations-heading">iPhone Repair in Nearby Areas</h2>
+    <ul class="cross-links__list">
+      {% for nearby in location.nearbyAreas %}
+        {% set nearbySlug = nearby | slugify %}
+        <li class="cross-links__item">
+          <a href="/{{ nearbySlug }}-iphone-repair/" class="cross-links__link">{{ nearby }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}

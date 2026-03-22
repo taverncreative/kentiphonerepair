@@ -1,0 +1,131 @@
+{# LocalBusiness Schema - appears on every page #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "{{ site.name }}",
+  "description": "{{ seoDescription or description or site.description }}",
+  "url": "{{ site.url }}",
+  "telephone": "{{ site.phone }}",
+  "image": "{{ site.url }}/img/og-default.jpg",
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Kent"
+    }
+  ],
+  "serviceType": [
+    "iPhone Screen Repair",
+    "iPhone Battery Replacement",
+    "iPhone Charging Port Repair"
+  ],
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "250",
+    "bestRating": "5"
+  }
+}
+</script>
+
+{# BreadcrumbList Schema - on all pages #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}/"
+    }
+    {% if breadcrumbs %}
+      {% for crumb in breadcrumbs %}
+      ,{
+        "@type": "ListItem",
+        "position": {{ loop.index + 1 }},
+        "name": "{{ crumb.text }}",
+        "item": "{{ site.url }}{{ crumb.url }}"
+      }
+      {% endfor %}
+    {% elif page.url != "/" %}
+      ,{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ title }}",
+        "item": "{{ site.url }}{{ page.url }}"
+      }
+    {% endif %}
+  ]
+}
+</script>
+
+{# WebSite Schema with SearchAction - homepage only #}
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.name }}",
+  "url": "{{ site.url }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{% endif %}
+
+{# Service Schema - conditional on serviceSchema data #}
+{% if serviceSchema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ serviceSchema.name }}",
+  "description": "{{ serviceSchema.description }}",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "{{ serviceSchema.area or 'Kent' }}"
+  },
+  "serviceType": "{{ serviceSchema.type or serviceSchema.name }}"
+  {% if serviceSchema.price %}
+  ,"offers": {
+    "@type": "Offer",
+    "price": "{{ serviceSchema.price }}",
+    "priceCurrency": "GBP"
+  }
+  {% endif %}
+}
+</script>
+{% endif %}
+
+{# FAQPage Schema - conditional on faqSchema data #}
+{% if faqSchema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in faqSchema %}
+    {
+      "@type": "Question",
+      "name": "{{ faq.question }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ faq.answer }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

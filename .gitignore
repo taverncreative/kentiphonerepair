@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.claude/
+
+# Source assets (not needed for build - processed versions in src/img/)
+Images/
+Current site screenshots/
+Sitemaps/
+Wording/
+*.pages
+*.pdf

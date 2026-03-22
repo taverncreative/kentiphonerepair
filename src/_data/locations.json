@@ -1,0 +1,702 @@
+[
+  {
+    "name": "Ashford",
+    "slug": "ashford-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Maidstone",
+      "Folkestone",
+      "Canterbury",
+      "Hythe",
+      "New Romney"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Ashford – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Ashford? Whether you're near the Designer Outlet, Ashford International Station or anywhere in the town centre, our mobile technician will come directly to you. We fix cracked screens, replace batteries, and repair charging ports on the spot – no need to visit a shop.",
+    "introText": "Ashford is one of Kent's fastest-growing towns, and we're proud to offer a convenient mobile iPhone repair service to residents and workers across the area. From the bustling high street to the retail parks and business estates, we come to your location and complete most repairs in under 30 minutes. Whether you've cracked your screen at work or your battery is letting you down at home, we'll get you sorted quickly and affordably."
+  },
+  {
+    "name": "Maidstone",
+    "slug": "maidstone-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Aylesford",
+      "West Malling",
+      "Snodland",
+      "Tonbridge",
+      "Ashford"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Maidstone – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Maidstone? As the county town of Kent, Maidstone is at the heart of our mobile repair coverage. Whether you're near the Fremlin Walk shopping centre, Maidstone East station, or working from an office on the river, we'll come to you and fix your iPhone on the spot.",
+    "introText": "Maidstone sits at the centre of Kent, making it an ideal hub for our mobile iPhone repair service. We regularly visit homes, offices, and workplaces throughout the town and surrounding areas. Whether your screen is cracked, your battery is failing, or your charging port has stopped working, our technician will travel to you and have your phone repaired quickly – often on the same day you get in touch."
+  },
+  {
+    "name": "Canterbury",
+    "slug": "canterbury-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Faversham",
+      "Whitstable",
+      "Herne Bay",
+      "Ashford",
+      "Thanet"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Canterbury – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Canterbury? Whether you're a student at one of the universities, working in the city centre, or based near the historic cathedral quarter, our mobile repair service comes directly to your door. Fast screen replacements, battery swaps, and charging port fixes – all done on-site.",
+    "introText": "Canterbury is one of Kent's most vibrant cities, home to thousands of students and professionals who rely on their iPhones every day. We provide a mobile repair service across Canterbury, visiting homes, university halls, offices, and cafes to fix iPhones on the spot. From cracked screens to dead batteries, our technician arrives with everything needed to get your device back in working order – usually within 30 minutes."
+  },
+  {
+    "name": "Folkestone",
+    "slug": "folkestone-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Hythe",
+      "Dover",
+      "Ashford",
+      "New Romney",
+      "Canterbury"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Folkestone – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Folkestone? From the Creative Quarter and harbour area to the residential streets around Cheriton and Sandgate, we bring our mobile repair service straight to you. Cracked screens, battery issues, and charging faults fixed on the spot with no need to leave your home or workplace.",
+    "introText": "Folkestone has seen a fantastic revival in recent years, with its thriving creative scene and coastal charm attracting new residents and businesses. Our mobile iPhone repair service covers all of Folkestone and the surrounding areas, bringing fast and affordable repairs to your door. Whether you've dropped your phone on the Leas or your battery has given up during a day at the harbour, we'll come to you and fix it quickly."
+  },
+  {
+    "name": "Sittingbourne",
+    "slug": "sittingbourne-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Faversham",
+      "Sheerness",
+      "Maidstone",
+      "Canterbury",
+      "Whitstable"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Sittingbourne – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Sittingbourne? Whether you're in the town centre, near the retail park, or based on one of the surrounding estates, our mobile technician will come to you. We fix screens, replace batteries, and repair charging ports at your home or workplace – most repairs completed in under 30 minutes.",
+    "introText": "Sittingbourne is a busy town in the Swale district, and many of its residents and workers depend on their iPhones daily. Our mobile repair service covers all of Sittingbourne and the surrounding villages, offering fast turnaround on screen replacements, battery swaps, and charging port fixes. There's no need to post your phone or visit a high street shop – we come to you and get the job done on the spot."
+  },
+  {
+    "name": "Dover",
+    "slug": "dover-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Deal",
+      "Folkestone",
+      "Canterbury",
+      "Sandwich",
+      "Hythe"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Dover – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Dover? From the town centre and Dover Castle area to the residential streets of Whitfield and River, our mobile repair technician comes directly to your location. Screen replacements, battery swaps, and charging port repairs – all completed on-site in under 30 minutes.",
+    "introText": "Dover is one of Kent's most iconic towns, known for its famous white cliffs and busy port. Our mobile iPhone repair service is available throughout Dover and the surrounding areas, bringing convenient repairs to your home, office, or any other location. Whether your screen is cracked, your battery is draining fast, or your phone won't charge, we'll visit you and have it fixed quickly – no shop visit required."
+  },
+  {
+    "name": "Herne Bay",
+    "slug": "herne-bay-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Whitstable",
+      "Canterbury",
+      "Faversham",
+      "Thanet",
+      "Margate"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Herne Bay – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Herne Bay? Whether you're along the seafront, near the clock tower, or in the residential areas around Greenhill and Beltinge, we'll come to you. Our mobile technician fixes cracked screens, replaces batteries, and repairs charging ports – all at your location.",
+    "introText": "Herne Bay is a popular seaside town on the north Kent coast, and our mobile iPhone repair service is fully available to residents and workers across the area. We travel to homes, workplaces, and other convenient locations to carry out screen repairs, battery replacements, and charging port fixes. Most jobs are completed in under 30 minutes, so you won't be without your phone for long."
+  },
+  {
+    "name": "Faversham",
+    "slug": "faversham-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Canterbury",
+      "Sittingbourne",
+      "Whitstable",
+      "Maidstone",
+      "Herne Bay"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Faversham – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Faversham? From the historic market town centre and creek-side area to surrounding villages like Boughton and Ospringe, our mobile technician comes to you. Fast screen, battery, and charging port repairs completed on-site – no need to leave home.",
+    "introText": "Faversham is one of Kent's most charming market towns, known for its historic buildings and thriving community. Our mobile iPhone repair service covers all of Faversham and the nearby villages, providing fast and reliable repairs at your doorstep. Whether you need a cracked screen replaced, a new battery fitted, or a charging port fixed, we'll visit your home or workplace and sort it out quickly."
+  },
+  {
+    "name": "Thanet",
+    "slug": "thanet-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Margate",
+      "Ramsgate",
+      "Broadstairs",
+      "Canterbury",
+      "Herne Bay"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Thanet – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Thanet? We cover the entire Isle of Thanet, including Margate, Ramsgate, Broadstairs, Westgate-on-Sea, and Birchington. Our mobile technician comes to your home or workplace and fixes screens, batteries, and charging ports on the spot.",
+    "introText": "The Isle of Thanet is home to some of Kent's most popular coastal towns, and our mobile iPhone repair service covers the entire district. Whether you're in Margate's Old Town, near Ramsgate harbour, or at home in Broadstairs, we'll come to you and carry out your repair on-site. From cracked screens to failing batteries, most fixes take less than 30 minutes – and there's no need to visit a shop or post your phone anywhere."
+  },
+  {
+    "name": "Broadstairs",
+    "slug": "broadstairs-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Ramsgate",
+      "Margate",
+      "Thanet",
+      "Canterbury",
+      "Sandwich"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Broadstairs – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Broadstairs? Whether you're near Viking Bay, the high street, or in the residential areas of St Peter's and Dumpton, our mobile repair service comes to you. Screen replacements, battery swaps, and charging port repairs – all done at your location.",
+    "introText": "Broadstairs is a picturesque seaside town on the Isle of Thanet, popular with families and commuters alike. Our mobile iPhone repair service brings convenient, same-day fixes to residents and workers across Broadstairs. From screen replacements to battery swaps and charging port repairs, we do everything on-site at your home or workplace – no shops, no postage, no hassle."
+  },
+  {
+    "name": "Margate",
+    "slug": "margate-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Broadstairs",
+      "Ramsgate",
+      "Thanet",
+      "Herne Bay",
+      "Canterbury"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Margate – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Margate? From the Turner Contemporary gallery and Old Town area to Cliftonville and Westbrook, our mobile technician travels to your location. We fix cracked screens, replace batteries, and repair charging ports on the spot – usually in under 30 minutes.",
+    "introText": "Margate has undergone a remarkable regeneration and is now one of Kent's most exciting coastal destinations. Our mobile iPhone repair service is available throughout Margate and the wider Thanet area. Whether you've dropped your phone at Dreamland, on the beach, or at home, our technician will come to you and complete the repair quickly. No need to queue at a shop – we bring the repair to your door."
+  },
+  {
+    "name": "Ramsgate",
+    "slug": "ramsgate-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Broadstairs",
+      "Margate",
+      "Thanet",
+      "Sandwich",
+      "Canterbury"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Ramsgate – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Ramsgate? Whether you're near the Royal Harbour, in the town centre, or based in Nethercourt or Newington, our mobile technician will come directly to you. Fast screen, battery, and charging port repairs – completed at your home or workplace.",
+    "introText": "Ramsgate is a historic harbour town on the Isle of Thanet, with a strong community and growing number of businesses. Our mobile iPhone repair service covers all of Ramsgate and the surrounding areas, offering fast turnaround on the most common iPhone issues. Whether you need a screen replacement, battery swap, or charging port fix, we'll visit your location and get it done – typically in under 30 minutes."
+  },
+  {
+    "name": "Whitstable",
+    "slug": "whitstable-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Canterbury",
+      "Herne Bay",
+      "Faversham",
+      "Sittingbourne",
+      "Thanet"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Whitstable – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Whitstable? From the harbour and high street to Tankerton slopes and the surrounding residential areas, our mobile technician comes to you. Screen replacements, battery swaps, and charging port repairs – all completed on-site with no shop visit needed.",
+    "introText": "Whitstable is a charming coastal town known for its oysters, independent shops, and vibrant community. Our mobile iPhone repair service is fully available across Whitstable, bringing fast and affordable fixes to your home or workplace. Whether your screen is cracked, your battery is on its last legs, or your phone won't charge, we'll come to you and have it repaired quickly – usually on the same day."
+  },
+  {
+    "name": "Sandwich",
+    "slug": "sandwich-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Deal",
+      "Canterbury",
+      "Ramsgate",
+      "Dover",
+      "Thanet"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Sandwich – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Sandwich? Whether you're in the medieval town centre, near the quay, or working at one of the nearby business parks, our mobile repair technician will come to your location. We fix screens, replace batteries, and repair charging ports – all on the spot.",
+    "introText": "Sandwich is one of the best-preserved medieval towns in England, and our mobile iPhone repair service brings modern convenience to this historic location. We cover Sandwich and the surrounding area, travelling to homes and workplaces to carry out screen replacements, battery swaps, and charging port repairs. Most jobs are completed in under 30 minutes, so you can get back to your day with minimal disruption."
+  },
+  {
+    "name": "Deal",
+    "slug": "deal-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Dover",
+      "Sandwich",
+      "Canterbury",
+      "Folkestone",
+      "Ramsgate"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Deal – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Deal? From the seafront and pier area to the town centre and surrounding streets of Walmer and Sholden, our mobile technician comes to you. Fast screen, battery, and charging port repairs completed at your home or workplace – no shop visit required.",
+    "introText": "Deal is a delightful seaside town between Dover and Sandwich, known for its Georgian architecture and award-winning high street. Our mobile iPhone repair service is available throughout Deal and the nearby areas, including Walmer. We bring screen repairs, battery replacements, and charging port fixes directly to your door, with most repairs completed in under 30 minutes. No need to travel – we come to you."
+  },
+  {
+    "name": "New Romney",
+    "slug": "new-romney-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Hythe",
+      "Folkestone",
+      "Ashford",
+      "Dover",
+      "Tenterden"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in New Romney – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in New Romney? Whether you're in the town centre or in surrounding Romney Marsh villages like Lydd, Dymchurch, or Littlestone, our mobile technician travels to your location. Screen replacements, battery swaps, and charging port fixes – all done on-site.",
+    "introText": "New Romney sits at the heart of the Romney Marsh, and our mobile iPhone repair service ensures that residents don't need to travel far for quality repairs. We cover New Romney and the surrounding villages, visiting homes and workplaces to fix iPhones on the spot. Whether you need a screen replacement, a new battery, or a charging port repair, we'll come to you and have it sorted quickly and affordably."
+  },
+  {
+    "name": "Hythe",
+    "slug": "hythe-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Folkestone",
+      "New Romney",
+      "Ashford",
+      "Dover",
+      "Canterbury"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Hythe – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Hythe? From the historic high street and Royal Military Canal area to Saltwood and Palmarsh, our mobile technician comes to you. We fix cracked screens, replace batteries, and repair charging ports on the spot – no need to leave your home or office.",
+    "introText": "Hythe is a picturesque town on the Kent coast, forming one of the original Cinque Ports. Our mobile iPhone repair service covers Hythe and the surrounding areas, bringing fast repairs to your door. Whether your screen is damaged, your battery needs replacing, or your charging port has stopped working, we'll come to your home or workplace and complete the repair on-site – typically in less than 30 minutes."
+  },
+  {
+    "name": "Tonbridge",
+    "slug": "tonbridge-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Maidstone",
+      "West Malling",
+      "Snodland",
+      "Aylesford",
+      "Ashford"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Tonbridge – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Tonbridge? Whether you're near the castle, in the high street area, or based in Hildenborough or Hadlow, our mobile repair technician will visit your location. Screen, battery, and charging port repairs – all completed on-site in under 30 minutes.",
+    "introText": "Tonbridge is a thriving town in west Kent, known for its Norman castle and excellent transport links to London. Our mobile iPhone repair service is available throughout Tonbridge and the surrounding villages, offering fast turnaround on screen replacements, battery swaps, and charging port fixes. We come to your home, office, or any other convenient location – no need to travel to a repair shop."
+  },
+  {
+    "name": "Sheerness",
+    "slug": "sheerness-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Sittingbourne",
+      "Faversham",
+      "Maidstone",
+      "Canterbury",
+      "Whitstable"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Sheerness – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Sheerness? Whether you're on the Isle of Sheppey near the high street, Bluetown, or the surrounding areas of Minster and Queenborough, our mobile technician will come to you. Fast screen, battery, and charging port repairs at your location.",
+    "introText": "Sheerness is the main town on the Isle of Sheppey, and our mobile iPhone repair service means residents no longer need to cross the bridge for quality repairs. We travel to homes and workplaces across Sheerness and the wider Sheppey area, fixing cracked screens, replacing batteries, and repairing charging ports on the spot. Most repairs are completed in under 30 minutes."
+  },
+  {
+    "name": "Snodland",
+    "slug": "snodland-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Maidstone",
+      "Aylesford",
+      "West Malling",
+      "Tonbridge",
+      "Sittingbourne"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Snodland – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Snodland? Whether you're in the village centre, near the station, or in the surrounding areas of Holborough and Halling, our mobile repair technician comes directly to you. Screen replacements, battery swaps, and charging port repairs – all done on-site.",
+    "introText": "Snodland is a growing community in the Medway valley, well connected to Maidstone and the wider Kent area. Our mobile iPhone repair service covers Snodland and nearby villages, bringing fast and convenient repairs to your home or workplace. Whether you need a cracked screen fixed, a battery replaced, or a charging port repaired, we'll come to you and have it sorted quickly."
+  },
+  {
+    "name": "Aylesford",
+    "slug": "aylesford-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Maidstone",
+      "Snodland",
+      "West Malling",
+      "Tonbridge",
+      "Sittingbourne"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Aylesford – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Aylesford? From the historic village and priory area to the modern developments and nearby business parks, our mobile technician will visit your location. We fix screens, replace batteries, and repair charging ports – all on the spot in under 30 minutes.",
+    "introText": "Aylesford is a historic village on the River Medway, just a short distance from Maidstone. Our mobile iPhone repair service covers Aylesford and the surrounding area, including the nearby retail and business parks. We visit homes and workplaces to carry out screen replacements, battery swaps, and charging port fixes – all completed on-site with no need to travel to a repair shop."
+  },
+  {
+    "name": "West Malling",
+    "slug": "west-malling-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Maidstone",
+      "Aylesford",
+      "Snodland",
+      "Tonbridge",
+      "Sittingbourne"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in West Malling – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in West Malling? Whether you're in the village centre, near Kings Hill, or in the surrounding areas of East Malling and Larkfield, our mobile repair technician comes to you. Fast screen, battery, and charging port repairs completed at your home or workplace.",
+    "introText": "West Malling is an attractive village in the heart of Kent, close to the thriving Kings Hill development. Our mobile iPhone repair service is available throughout West Malling and the surrounding area, offering quick and affordable repairs at your doorstep. Whether your screen is cracked, your battery is failing, or your charging port has stopped working, we'll come to you and fix it on the spot – no shop visit needed."
+  },
+  {
+    "name": "Tunbridge Wells",
+    "slug": "tunbridge-wells-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Tonbridge",
+      "Sevenoaks",
+      "Maidstone",
+      "Ashford",
+      "Canterbury"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Tunbridge Wells – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Tunbridge Wells? Whether you're near The Pantiles, the Royal Victoria Place, or anywhere in the town centre, our mobile technician will come directly to you. Screen replacements, battery swaps, and charging port fixes – all completed on the spot.",
+    "introText": "Royal Tunbridge Wells is one of Kent's most prestigious towns, known for its elegant architecture and bustling high street. Our mobile iPhone repair service covers the whole of Tunbridge Wells and surrounding villages, bringing fast, affordable repairs to your home or workplace. From cracked screens to worn-out batteries, we arrive with everything needed and complete most repairs in under 30 minutes."
+  },
+  {
+    "name": "Dartford",
+    "slug": "dartford-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Gravesend",
+      "Rochester",
+      "Chatham",
+      "Sevenoaks",
+      "Maidstone"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Dartford – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Dartford? Whether you're near the Bluewater Shopping Centre, Dartford town centre, or the business parks along the A2, our mobile technician comes to you. Fast, professional repairs at your home or workplace.",
+    "introText": "Dartford sits at the gateway to Kent, just south of the Thames crossing. Our mobile iPhone repair service is available throughout Dartford and the surrounding area, including Stone, Greenhithe, and Swanscombe. Whether your screen is cracked, your battery won't hold charge, or your charging port has stopped working, we'll travel to your location and fix it on the spot – often the same day you get in touch."
+  },
+  {
+    "name": "Gravesend",
+    "slug": "gravesend-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Dartford",
+      "Rochester",
+      "Chatham",
+      "Maidstone",
+      "Gillingham"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Gravesend – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Gravesend? Whether you're near the town centre, Gravesend Promenade, or the Ebbsfleet area, our mobile repair technician comes directly to your door. Screen repairs, battery replacements, and charging port fixes – done on site.",
+    "introText": "Gravesend is a busy riverside town in north Kent with a rich history and a growing community. Our mobile iPhone repair service covers all of Gravesend and the surrounding areas, including Northfleet and Shorne. We come to your home, office, or wherever suits you best – fixing your iPhone quickly and affordably without the hassle of visiting a shop."
+  },
+  {
+    "name": "Sevenoaks",
+    "slug": "sevenoaks-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Tunbridge Wells",
+      "Tonbridge",
+      "Dartford",
+      "Maidstone",
+      "Gravesend"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Sevenoaks – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Sevenoaks? Whether you're in the town centre, near Knole Park, or working from home in the surrounding villages, our mobile repair service comes to you. Fast screen, battery, and charging port repairs completed at your location.",
+    "introText": "Sevenoaks is an affluent market town on the western edge of Kent, surrounded by beautiful countryside and commuter villages. Our mobile iPhone repair service is available throughout Sevenoaks, Otford, Westerham, and the surrounding area. We come to you and complete most repairs in under 30 minutes – no need to travel to a shop or post your phone anywhere."
+  },
+  {
+    "name": "Chatham",
+    "slug": "chatham-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Rochester",
+      "Gillingham",
+      "Maidstone",
+      "Gravesend",
+      "Sittingbourne"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Chatham – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Chatham? Whether you're near the Pentagon Shopping Centre, Chatham Dockyard, or the universities on the Medway campus, our mobile technician comes to you. Screen replacements, battery swaps, and charging port repairs – all done at your location.",
+    "introText": "Chatham is one of the Medway Towns with a vibrant mix of shopping, history, and a large student population. Our mobile iPhone repair service covers the whole of Chatham and the wider Medway area, bringing fast, affordable repairs to your doorstep. Whether your screen is cracked, your battery is dying, or your charging port has failed, we fix it on site – usually in under 30 minutes."
+  },
+  {
+    "name": "Rochester",
+    "slug": "rochester-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Chatham",
+      "Gillingham",
+      "Gravesend",
+      "Maidstone",
+      "Sittingbourne"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Rochester – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Rochester? Whether you're near Rochester Cathedral, the High Street, or anywhere in the Medway Towns, our mobile repair service comes directly to your door. Fast, professional iPhone repairs without the wait.",
+    "introText": "Rochester is a historic city in the Medway area, known for its cathedral, castle, and charming high street. Our mobile iPhone repair service is available throughout Rochester and the surrounding areas. We come to your home, workplace, or café and complete most repairs in under 30 minutes. From cracked screens to faulty charging ports, we've got you covered."
+  },
+  {
+    "name": "Gillingham",
+    "slug": "gillingham-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Chatham",
+      "Rochester",
+      "Sittingbourne",
+      "Maidstone",
+      "Gravesend"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Gillingham – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Gillingham? Whether you're near the town centre, Gillingham Pier, or the residential areas of Rainham and Hempstead, our mobile technician comes to you. Screen, battery, and charging port repairs – all done on site.",
+    "introText": "Gillingham is the largest of the Medway Towns, with a diverse community and busy high street. Our mobile iPhone repair service covers all of Gillingham and the surrounding areas, offering quick and affordable repairs at your home or workplace. No need to queue in a shop or post your phone away – we come to you and fix it on the spot."
+  },
+  {
+    "name": "Tenterden",
+    "slug": "tenterden-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Ashford",
+      "Cranbrook",
+      "New Romney",
+      "Folkestone",
+      "Maidstone"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Tenterden – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Tenterden? Whether you’re strolling along the tree-lined high street, visiting Tenterden Vineyard, or catching a ride on the Kent & East Sussex Railway, our mobile technician will come to you. Screen replacements, battery swaps, and charging port repairs – all completed on the spot at your location.",
+    "introText": "Tenterden is often called the ‘Jewel of the Weald’, and it’s easy to see why – with its elegant high street, independent shops, and the famous Kent & East Sussex Railway drawing visitors year-round. Our mobile iPhone repair service brings fast, professional fixes directly to homes and workplaces across Tenterden and the surrounding Wealden villages. Whether you’ve cracked your screen near the Woolpack Corner or your battery is struggling after a day at Tenterden Vineyard, we’ll travel to you and complete the repair on-site, typically in under 30 minutes. No need to drive to Ashford or Maidstone for a repair shop – we bring the service to your door."
+  },
+  {
+    "name": "Cranbrook",
+    "slug": "cranbrook-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Tenterden",
+      "Tunbridge Wells",
+      "Ashford",
+      "Maidstone",
+      "Tonbridge"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Cranbrook – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Cranbrook? From the charming high street and the iconic Union Windmill to the surrounding villages of Sissinghurst and Goudhurst, our mobile technician comes directly to your door. Fast screen, battery, and charging port repairs without leaving home.",
+    "introText": "Cranbrook is a beautiful market town nestled in the Weald of Kent, best known for its striking Union Windmill – the finest smock mill in England – and its strong community spirit. Our mobile iPhone repair service covers Cranbrook and the picturesque surrounding villages including Sissinghurst, Goudhurst, and Benenden. Whether your screen has cracked while exploring the local countryside or your battery has given up during a visit to Sissinghurst Castle Garden, our technician will travel to your home or workplace and fix your iPhone on the spot. Most repairs take less than 30 minutes, saving you a trip to the nearest town centre."
+  },
+  {
+    "name": "Swanley",
+    "slug": "swanley-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Dartford",
+      "Sevenoaks",
+      "Gravesend",
+      "Rochester",
+      "Maidstone"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Swanley – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Swanley? Whether you’re near Swanley Park, the town centre, or the residential streets around Hextable and Crockenhill, our mobile technician will come to you. Cracked screens, battery replacements, and charging port fixes – all done at your location.",
+    "introText": "Swanley is a well-connected commuter town in north Kent, sitting close to the M25 and M20 with easy access to London and the rest of the county. Our mobile iPhone repair service is ideal for busy Swanley residents who don’t have time to travel to a repair shop. Whether you’ve damaged your screen at Swanley Park, your battery is letting you down on the commute, or your charging port has stopped working at home, we’ll come to your door and fix it on the spot. We also cover nearby areas including Hextable, Crockenhill, and Farningham – with most repairs completed in under 30 minutes."
+  },
+  {
+    "name": "Paddock Wood",
+    "slug": "paddock-wood-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Tonbridge",
+      "Tunbridge Wells",
+      "Maidstone",
+      "Cranbrook",
+      "Ashford"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Paddock Wood – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Paddock Wood? Whether you’re near the station, the village centre, or in the surrounding hop garden countryside, our mobile repair technician comes directly to you. Screen replacements, battery swaps, and charging port repairs – all completed on-site.",
+    "introText": "Paddock Wood is a friendly town in the heart of the Weald, surrounded by orchards and hop gardens that reflect Kent’s proud agricultural heritage. With its busy rail station connecting to London and Tonbridge, Paddock Wood is home to many commuters who rely on their iPhones every day. Our mobile repair service brings fast, professional iPhone fixes straight to your home or workplace in Paddock Wood and the surrounding villages including Five Oak Green and Beltring. Whether your screen is cracked, your battery is failing, or your charging port needs attention, we’ll have it sorted on the spot – no need to travel elsewhere for a repair."
+  },
+  {
+    "name": "Edenbridge",
+    "slug": "edenbridge-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "Sevenoaks",
+      "Tunbridge Wells",
+      "Tonbridge",
+      "Dartford",
+      "Maidstone"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Edenbridge – Mobile Service Across Kent",
+    "heroDescription": "Need an iPhone repair in Edenbridge? From the historic high street and the River Eden to the surrounding countryside of Hever and Marsh Green, our mobile technician travels to your location. Fast screen, battery, and charging port repairs at your home or workplace.",
+    "introText": "Edenbridge is a charming market town tucked into the south-western corner of Kent, close to the Surrey and Sussex borders. Known for its medieval high street, the River Eden, and nearby Hever Castle, the town has a quiet, rural character that makes a trip to a repair shop inconvenient. That’s where our mobile iPhone repair service comes in – we travel directly to homes and workplaces across Edenbridge and surrounding villages like Hever, Four Elms, and Marsh Green. Whether your screen is cracked or your battery won’t last the day, our technician will fix it on-site in under 30 minutes, saving you the journey to Sevenoaks or Tunbridge Wells."
+  },
+  {
+    "name": "Larkfield",
+    "slug": "larkfield-iphone-repair",
+    "county": "Kent",
+    "nearbyAreas": [
+      "West Malling",
+      "Maidstone",
+      "Aylesford",
+      "Snodland",
+      "Tonbridge"
+    ],
+    "services": [
+      "screen-repair",
+      "battery-replacement",
+      "charging-port-repair"
+    ],
+    "heroTitle": "iPhone Repair in Larkfield – Mobile Service Across Kent",
+    "heroDescription": "Looking for iPhone repair in Larkfield? Whether you’re near the Larkfield Leisure Centre, the local shops, or in the residential streets connecting to West Malling and Aylesford, our mobile technician comes to you. Screen, battery, and charging port repairs – all done on-site.",
+    "introText": "Larkfield is a thriving suburban area in the Medway valley, conveniently positioned between West Malling and Maidstone with excellent access to the M20. Its growing residential community and proximity to local business parks mean many residents depend on their iPhones for work and daily life. Our mobile iPhone repair service covers all of Larkfield and the neighbouring areas including Ditton, East Malling, and Leybourne. Whether you’ve cracked your screen near Larkfield Leisure Centre or your battery is struggling at home, we’ll come to your door and complete the repair on the spot – typically in less than 30 minutes."
+  }
+]

@@ -1,0 +1,29 @@
+<section class="testimonials" aria-labelledby="testimonials-heading">
+  <div class="container">
+    <h2 class="testimonials__heading" id="testimonials-heading">
+      {{ testimonialHeading or "What Our Customers Say" }}
+    </h2>
+
+    <div class="testimonials__grid">
+      {% for testimonial in testimonials %}
+        {% if not testimonialSet or testimonial.pageType == testimonialSet %}
+        <article class="testimonial-card">
+          <blockquote class="testimonial-card__quote">
+            <p>{{ testimonial.text }}</p>
+          </blockquote>
+          <footer class="testimonial-card__footer">
+            {% if testimonial.link %}
+              <a href="{{ testimonial.link }}" class="testimonial-card__name" target="_blank" rel="noopener noreferrer">{{ testimonial.name }}</a>
+            {% else %}
+              <strong class="testimonial-card__name">{{ testimonial.name }}</strong>
+            {% endif %}
+            {% if testimonial.service %}
+              <span class="testimonial-card__service">{{ testimonial.service }}</span>
+            {% endif %}
+          </footer>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

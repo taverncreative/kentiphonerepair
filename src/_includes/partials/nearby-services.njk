@@ -1,0 +1,29 @@
+<section class="nearby-services" aria-labelledby="nearby-services-heading">
+  <div class="nearby-services__container">
+    <h2 class="nearby-services__heading" id="nearby-services-heading">
+      {{ nearbyHeading or "Nearby iPhone Repair Services" }}
+    </h2>
+
+    <ul class="nearby-services__list">
+      {% set defaultAreas = [
+        { name: "Ashford", url: "/ashford-iphone-repair/" },
+        { name: "Canterbury", url: "/canterbury-iphone-repair/" },
+        { name: "Folkestone", url: "/folkestone-iphone-repair/" },
+        { name: "Faversham", url: "/faversham-iphone-repair/" },
+        { name: "Maidstone", url: "/maidstone-iphone-repair/" }
+      ] %}
+
+      {% set areaList = nearbyAreas or defaultAreas %}
+
+      {% for area in areaList %}
+        {% if area.url != page.url %}
+          <li class="nearby-services__item">
+            <a href="{{ area.url }}" class="nearby-services__link">
+              iPhone Repair {{ area.name }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,53 @@
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="hero__container">
+    <div class="hero__grid">
+
+      {# Text Column #}
+      <div class="hero__content">
+        <h1 class="hero__title" id="hero-heading">{{ heroTitle }}</h1>
+        <p class="hero__description">{{ heroDescription }}</p>
+
+        {% if showModelSelector %}
+          <p class="hero__price" id="hero-price" aria-live="polite"></p>
+          <div class="hero__model-selector">
+            <label for="hero-model-select" class="hero__model-label">Select your iPhone model:</label>
+            <select id="hero-model-select" class="hero__model-select" name="model">
+              <option value="">Choose your model...</option>
+              {% for model in iphoneModels %}
+                <option value="{{ model.slug }}" data-price="{{ model.price }}">{{ model.name }}</option>
+              {% endfor %}
+            </select>
+          </div>
+        {% endif %}
+
+        <a href="/contact/" class="btn btn--primary hero__cta">Book Now</a>
+      </div>
+
+      {# Image Column #}
+      <div class="hero__image-wrapper">
+        {% if heroImage %}
+          <img
+            src="{{ heroImage }}"
+            alt="{{ heroImageAlt or heroTitle }}"
+            class="hero__image"
+            width="{{ heroImageWidth or 600 }}"
+            height="{{ heroImageHeight or 500 }}"
+            fetchpriority="high"
+            loading="eager"
+          >
+        {% else %}
+          <img
+            src="/img/hero/hero-phones.webp"
+            alt="Mobile iPhone repair service in Kent"
+            class="hero__image"
+            width="600"
+            height="500"
+            fetchpriority="high"
+            loading="eager"
+          >
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+</section>

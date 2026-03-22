@@ -1,0 +1,78 @@
+---
+layout: layouts/base.njk
+title: Our iPhone Repair Services - Mobile Call-Outs Across Kent
+seoTitle: iPhone Repair Services in Kent - Screen, Battery & Charging Port
+seoDescription: "Fast, mobile iPhone repair services across Kent. Screen replacements, battery swaps, and charging port fixes - all done at your location in under 30 minutes."
+permalink: /services/
+---
+
+{# ── Hero Section ── #}
+{% set heroTitle = "Our iPhone Repair Services - Mobile Call-Outs Across Kent" %}
+{% set heroDescription = "At Kent iPhone Repair, we fix your iPhone quickly and professionally - wherever you are in Kent. Whether your screen is smashed, your battery's worn out, or your charging port has failed, we come to you and complete most repairs in under 30 minutes. There's no call-out fee, and if we can't fix the issue, you don't pay." %}
+{% set heroImage = "/img/repair/repair-hero.webp" %}
+{% set heroImageAlt = "iPhone repair services across Kent" %}
+{% include "partials/hero.njk" %}
+
+{# ── Services Intro ── #}
+<section class="services-intro" aria-labelledby="services-intro-heading">
+  <div class="services-intro__container">
+    <p class="services-intro__text">We offer honest advice, and provide a stress-free mobile service trusted by over 250 happy customers across Maidstone, Ashford, Canterbury, Folkestone and beyond.</p>
+  </div>
+</section>
+
+{# ── Service Cards ── #}
+<section class="services-list" aria-labelledby="services-list-heading">
+  <div class="services-list__container">
+    <h2 class="services-list__heading visually-hidden" id="services-list-heading">Our Repair Services</h2>
+
+    {% for service in services %}
+    <article class="service-card {% if loop.index is odd %}service-card--image-left{% else %}service-card--image-right{% endif %}" id="{{ service.slug }}">
+      <div class="service-card__grid">
+        <div class="service-card__image-wrapper">
+          <img src="/img/repair/repair-{{ service.icon }}.webp" alt="{{ service.name }} in Kent" class="service-card__image" width="500" height="400" loading="lazy">
+        </div>
+        <div class="service-card__content">
+          <h3 class="service-card__title">{{ service.name }}</h3>
+          <p class="service-card__description">{{ service.description }}</p>
+          <ul class="service-card__bullets">
+            {% for bullet in service.bullets %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+          <a href="/{{ service.slug }}/" class="btn btn--primary service-card__cta">Learn More</a>
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+
+  </div>
+</section>
+
+{# ── How It Works ── #}
+{% include "partials/how-it-works.njk" %}
+
+{# ── Models Covered ── #}
+<section class="models-covered" aria-labelledby="models-covered-heading">
+  <div class="models-covered__container">
+    <h2 class="models-covered__heading" id="models-covered-heading">iPhone Models We Repair</h2>
+    <p class="models-covered__intro">We repair all iPhone models, from the iPhone 5 through to the latest iPhone 16 range. Whatever model you have, we've got you covered.</p>
+    <ul class="models-covered__list">
+      {% for model in iphoneModels %}
+      <li class="models-covered__item">{{ model.name }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# ── Areas Served ── #}
+{% include "partials/areas-served.njk" %}
+
+{# ── Testimonials ── #}
+{% set testimonialSet = "services" %}
+{% include "partials/testimonials.njk" %}
+
+{# ── Contact Form ── #}
+{% include "partials/contact-form.njk" %}
+
+{# ── CTA Banner ── #}
+{% include "partials/cta-banner.njk" %}

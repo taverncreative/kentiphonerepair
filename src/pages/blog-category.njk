@@ -1,0 +1,86 @@
+---
+layout: layouts/base.njk
+pagination:
+  addAllPagesToCollections: true
+  data: blogCategories
+  size: 1
+  alias: category
+permalink: "/blog/categories/{{ category.slug }}/"
+eleventyComputed:
+  title: "{{ category.name }} - iPhone Repair Blog"
+  seoTitle: "{{ category.name }} | iPhone Repair Blog | Kent iPhone Repair"
+  seoDescription: "Browse our {{ category.name }} articles. Expert iPhone repair tips and advice from Kent iPhone Repair."
+---
+
+{# ── Category Hero ── #}
+<section class="blog-hero" aria-labelledby="blog-category-heading">
+  <div class="blog-hero__container">
+    <h1 class="blog-hero__heading" id="blog-category-heading">{{ category.name }}</h1>
+    <p class="blog-hero__text">Browse our latest articles about {{ category.name | lower }}.</p>
+  </div>
+</section>
+
+{# ── Category Filter ── #}
+<section class="blog-categories" aria-label="Blog categories">
+  <div class="blog-categories__container">
+    <nav class="blog-categories__nav">
+      <a href="/blog/" class="blog-categories__link">All Posts</a>
+      {% for cat in blogCategories %}
+      <a href="/blog/categories/{{ cat.slug }}/" class="blog-categories__link {% if cat.slug == category.slug %}blog-categories__link--active{% endif %}" {% if cat.slug == category.slug %}aria-current="page"{% endif %}>{{ cat.name }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</section>
+
+{# ── Filtered Blog Post Grid ── #}
+<section class="blog-grid" aria-labelledby="blog-category-grid-heading">
+  <div class="blog-grid__container">
+    <h2 class="visually-hidden" id="blog-category-grid-heading">{{ category.name }} Articles</h2>
+
+    {% set blogPosts = collections.blogPosts %}
+    {% set categoryPosts = [] %}
+    {% if blogPosts %}
+      {% for post in blogPosts %}
+        {% if post.data.categorySlug == category.slug or post.data.category == category.name %}
+          {% set categoryPosts = (categoryPosts.push(post), categoryPosts) %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% if categoryPosts and categoryPosts.length %}
+    <div class="blog-grid__grid">
+      {% for post in categoryPosts | reverse %}
+      <article class="blog-card">
+        {% if post.data.image %}
+        <div class="blog-card__image-wrapper">
+          <a href="{{ post.url }}">
+            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt or post.data.title }}" class="blog-card__image" width="400" height="250" loading="lazy">
+          </a>
+        </div>
+        {% endif %}
+        <div class="blog-card__content">
+          {% if post.data.category %}
+          <span class="blog-card__category">{{ post.data.category }}</span>
+          {% endif %}
+          <h3 class="blog-card__title">
+            <a href="{{ post.url }}" class="blog-card__link">{{ post.data.title }}</a>
+          </h3>
+          {% if post.data.excerpt %}
+          <p class="blog-card__excerpt">{{ post.data.excerpt }}</p>
+          {% endif %}
+          <time class="blog-card__date" datetime="{{ post.date | dateISO }}">{{ post.date | dateDisplay }}</time>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="blog-grid__empty">No posts in this category yet. Check back soon.</p>
+    {% endif %}
+
+  </div>
+</section>
+
+{# ── CTA Banner ── #}
+{% set ctaHeading = "Need an iPhone Repair?" %}
+{% set ctaText = "Don't wait around - get in touch today for a fast, free quote. We come to you anywhere in Kent and most repairs are done in under 30 minutes." %}
+{% include "partials/cta-banner.njk" %}

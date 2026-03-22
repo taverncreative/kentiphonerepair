@@ -1,0 +1,43 @@
+{# Only show breadcrumbs on inner pages, not homepage #}
+{% if page.url !== "/" %}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <div class="breadcrumb__container">
+    <a href="/">Home</a>
+    {% if page.url.startsWith("/post/") %}
+      <span aria-hidden="true">/</span>
+      <a href="/blog/">Blog</a>
+      <span aria-hidden="true">/</span>
+      <span>{{ title }}</span>
+    {% elif page.url.startsWith("/blog/categories/") %}
+      <span aria-hidden="true">/</span>
+      <a href="/blog/">Blog</a>
+      <span aria-hidden="true">/</span>
+      <span>{{ title }}</span>
+    {% elif page.url === "/blog/" %}
+      <span aria-hidden="true">/</span>
+      <span>Blog</span>
+    {% elif page.url === "/services/" %}
+      <span aria-hidden="true">/</span>
+      <span>Services</span>
+    {% elif page.url === "/iphone-screen-repair/" or page.url === "/iphone-battery-replacement/" or page.url === "/iphone-charging-port-repair/" %}
+      <span aria-hidden="true">/</span>
+      <a href="/services/">Services</a>
+      <span aria-hidden="true">/</span>
+      <span>{{ title }}</span>
+    {% elif locService %}
+      {# Location+Service combo page #}
+      <span aria-hidden="true">/</span>
+      <a href="/{{ locService.locationSlug }}-iphone-repair/">{{ locService.location }}</a>
+      <span aria-hidden="true">/</span>
+      <span>{{ locService.service }}</span>
+    {% elif location %}
+      {# Location page #}
+      <span aria-hidden="true">/</span>
+      <span>{{ location.name }}</span>
+    {% else %}
+      <span aria-hidden="true">/</span>
+      <span>{{ title }}</span>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}

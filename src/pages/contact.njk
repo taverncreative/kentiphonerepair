@@ -1,0 +1,133 @@
+---
+layout: layouts/base.njk
+title: Contact Us - Get a Free iPhone Repair Quote
+seoTitle: Contact Kent iPhone Repair - Get a Free Quote Today
+seoDescription: "Get in touch with Kent iPhone Repair for a fast, free iPhone repair quote. Call 07758 115476 or use our online form. We serve all areas across Kent."
+permalink: /contact/
+---
+
+{# ── Contact Hero ── #}
+<section class="contact-hero" aria-labelledby="contact-hero-heading">
+  <div class="contact-hero__container">
+    <h1 class="contact-hero__heading" id="contact-hero-heading">Get in Touch</h1>
+    <p class="contact-hero__text">Need an iPhone repair? Send us your details below and we'll get back to you with a free, no-obligation quote - usually within minutes. Or give us a call and we'll arrange everything over the phone.</p>
+  </div>
+</section>
+
+{# ── Contact Info + Form ── #}
+<section class="contact-page" aria-labelledby="contact-page-heading">
+  <div class="contact-page__container">
+    <div class="contact-page__grid">
+
+      {# Left Column: Business Info #}
+      <div class="contact-page__info">
+        <h2 class="contact-page__heading" id="contact-page-heading">Contact Details</h2>
+
+        <div class="contact-page__detail">
+          <h3 class="contact-page__detail-title">Phone</h3>
+          <p><a href="{{ site.phoneLink }}" class="contact-page__phone">{{ site.phone }}</a></p>
+          <p class="contact-page__note">Call or text us any time. We aim to respond within minutes.</p>
+        </div>
+
+        <div class="contact-page__detail">
+          <h3 class="contact-page__detail-title">Service Area</h3>
+          <p>We cover all of Kent, including:</p>
+          <ul class="contact-page__areas">
+            <li>Ashford</li>
+            <li>Canterbury</li>
+            <li>Maidstone</li>
+            <li>Folkestone</li>
+            <li>Faversham</li>
+            <li>Dover</li>
+            <li>Tonbridge</li>
+            <li>Sittingbourne</li>
+            <li>Margate</li>
+            <li>Ramsgate</li>
+            <li>Whitstable</li>
+            <li>Herne Bay</li>
+            <li>Dartford</li>
+            <li>Gravesend</li>
+            <li>Sevenoaks</li>
+            <li>Chatham</li>
+            <li>Rochester</li>
+            <li>Gillingham</li>
+          </ul>
+        </div>
+
+        <div class="contact-page__detail">
+          <h3 class="contact-page__detail-title">How It Works</h3>
+          <ol class="contact-page__steps">
+            <li>Send us your iPhone model, fault, and postcode</li>
+            <li>We reply with a free quote (usually within minutes)</li>
+            <li>We come to you and fix your phone on the spot</li>
+          </ol>
+        </div>
+
+        <div class="contact-page__detail">
+          <h3 class="contact-page__detail-title">Follow Us</h3>
+          <ul class="contact-page__social">
+            {% if site.social.facebook %}
+            <li><a href="{{ site.social.facebook }}" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            {% endif %}
+            {% if site.social.google %}
+            <li><a href="{{ site.social.google }}" target="_blank" rel="noopener noreferrer">Google Reviews</a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+
+      {# Right Column: Quote Form #}
+      <div class="contact-page__form-wrapper">
+        <h2 class="contact-page__form-heading">Get a Free Quote</h2>
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+
+          <input type="hidden" name="_source" value="{{ page.url }}">
+
+          <div class="contact-form__group">
+            <label for="contact-name" class="contact-form__label">Name</label>
+            <input type="text" id="contact-name" name="name" class="contact-form__input" required autocomplete="name" placeholder="Your full name">
+          </div>
+
+          <div class="contact-form__group">
+            <label for="contact-phone" class="contact-form__label">Phone Number</label>
+            <input type="tel" id="contact-phone" name="phone" class="contact-form__input" required autocomplete="tel" placeholder="07xxx xxxxxx">
+          </div>
+
+          <div class="contact-form__group">
+            <label for="contact-email" class="contact-form__label">Email</label>
+            <input type="email" id="contact-email" name="email" class="contact-form__input" required autocomplete="email" placeholder="you@example.com">
+          </div>
+
+          <div class="contact-form__group">
+            <label for="contact-model" class="contact-form__label">iPhone Model</label>
+            <select id="contact-model" name="model" class="contact-form__select" required>
+              <option value="">Select your iPhone model...</option>
+              {% for model in iphoneModels %}
+              <option value="{{ model.slug }}">{{ model.name }}</option>
+              {% endfor %}
+            </select>
+          </div>
+
+          <div class="contact-form__group">
+            <label for="contact-postcode" class="contact-form__label">Postcode</label>
+            <input type="text" id="contact-postcode" name="postcode" class="contact-form__input" required autocomplete="postal-code" placeholder="e.g. CT1 1AA">
+          </div>
+
+          <div class="contact-form__group">
+            <label for="contact-fault" class="contact-form__label">Fault Description</label>
+            <textarea id="contact-fault" name="fault" class="contact-form__textarea" rows="4" required placeholder="Tell us what's wrong with your iPhone..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary contact-form__submit">Get a Quote</button>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{# ── CTA Banner ── #}
+{% set ctaHeading = "Prefer to Call?" %}
+{% set ctaText = "Give us a ring on " + site.phone + " and we'll arrange your repair over the phone. Most repairs can be booked for the same day." %}
+{% include "partials/cta-banner.njk" %}
