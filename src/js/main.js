@@ -97,10 +97,12 @@
         body: data,
         headers: {'Accept': 'application/json'}
       }).then(function(response){
-        if(response.ok){
+        return response.json();
+      }).then(function(data){
+        if(data.success){
           form.reset();
-          btn.textContent = 'Sent!';
-          setTimeout(function(){ btn.textContent = originalText; btn.disabled = false; }, 3000);
+          btn.textContent = 'Sent! We\'ll be in touch shortly.';
+          setTimeout(function(){ btn.textContent = originalText; btn.disabled = false; }, 4000);
         } else {
           btn.textContent = 'Error - Try Again';
           btn.disabled = false;

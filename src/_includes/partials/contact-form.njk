@@ -12,10 +12,16 @@
 
       {# Right Column: Form #}
       <div class="contact-form-section__form-wrapper">
-        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+        <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
 
+          {# Web3Forms access key - create at web3forms.com with both emails linked #}
+          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY">
+          <input type="hidden" name="subject" value="New iPhone Repair Quote Request">
+          <input type="hidden" name="from_name" value="Kent iPhone Repair Website">
           {# Hidden field for page source #}
           <input type="hidden" name="_source" value="{{ page.url }}">
+          {# Honeypot spam protection #}
+          <input type="checkbox" name="botcheck" class="hidden" style="display:none">
 
           <div class="contact-form__group">
             <label for="contact-name" class="contact-form__label">Name</label>
@@ -65,9 +71,32 @@
               required
             >
               <option value="">Select your iPhone model...</option>
-              {% for model in iphoneModels %}
-                <option value="{{ model.slug }}">{{ model.name }}</option>
-              {% endfor %}
+              <option value="iphone-16-pro-max">iPhone 16 Pro Max</option>
+              <option value="iphone-16-pro">iPhone 16 Pro</option>
+              <option value="iphone-16-plus">iPhone 16 Plus</option>
+              <option value="iphone-16">iPhone 16</option>
+              <option value="iphone-15-pro-max">iPhone 15 Pro Max</option>
+              <option value="iphone-15-pro">iPhone 15 Pro</option>
+              <option value="iphone-15-plus">iPhone 15 Plus</option>
+              <option value="iphone-15">iPhone 15</option>
+              <option value="iphone-14-pro-max">iPhone 14 Pro Max</option>
+              <option value="iphone-14-pro">iPhone 14 Pro</option>
+              <option value="iphone-14">iPhone 14</option>
+              <option value="iphone-13-pro-max">iPhone 13 Pro Max</option>
+              <option value="iphone-13-pro">iPhone 13 Pro</option>
+              <option value="iphone-13">iPhone 13</option>
+              <option value="iphone-12-pro-max">iPhone 12 Pro Max</option>
+              <option value="iphone-12-pro">iPhone 12 Pro</option>
+              <option value="iphone-12">iPhone 12</option>
+              <option value="iphone-11-pro-max">iPhone 11 Pro Max</option>
+              <option value="iphone-11-pro">iPhone 11 Pro</option>
+              <option value="iphone-11">iPhone 11</option>
+              <option value="iphone-xr">iPhone XR</option>
+              <option value="iphone-xs-max">iPhone XS Max</option>
+              <option value="iphone-xs">iPhone XS</option>
+              <option value="iphone-x">iPhone X</option>
+              <option value="iphone-se">iPhone SE</option>
+              <option value="other">Other / Not sure</option>
             </select>
           </div>
 
