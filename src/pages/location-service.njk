@@ -12,17 +12,50 @@ eleventyComputed:
   seoDescription: "{{ locService.metaDescription }}"
 ---
 
+{# ── Vary layout based on entry index ── #}
+{% set lsIndex = locationServices.indexOf(locService) %}
+{% set layoutVariant = lsIndex % 3 %}
+
+{# ── Choose hero image based on service type ── #}
+{% if locService.serviceSlug == "screen-repair" %}
+  {% set svcImage = "/img/repair/repair-screen.webp" %}
+{% elif locService.serviceSlug == "battery-replacement" %}
+  {% set svcImage = "/img/repair/repair-battery.webp" %}
+{% else %}
+  {% set svcImage = "/img/repair/repair-charging.webp" %}
+{% endif %}
+
 {# ── Hero Section ── #}
 {% set heroTitle = locService.heroTitle or locService.title %}
 {% set heroDescription = locService.heroDescription %}
-{% set heroImage = locService.heroImage or "/img/repair/repair-charging.webp" %}
-{% set heroImageAlt = locService.title %}
+{% set heroImage = locService.heroImage or svcImage %}
+{% set heroImageAlt = locService.service + " technician in " + locService.location + ", Kent" %}
 {% include "partials/hero.njk" %}
+
+{# ── Breadcrumb Trail ── #}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <div class="breadcrumb__container">
+    <ol class="breadcrumb__list" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <li class="breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+        <meta itemprop="position" content="1">
+      </li>
+      <li class="breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/{{ locService.locationSlug }}-iphone-repair/" itemprop="item"><span itemprop="name">{{ locService.location }}</span></a>
+        <meta itemprop="position" content="2">
+      </li>
+      <li class="breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">{{ locService.service }}</span>
+        <meta itemprop="position" content="3">
+      </li>
+    </ol>
+  </div>
+</nav>
 
 {# ── Cross-Links: Back to parent + sibling services ── #}
 <section class="cross-links" aria-label="Related pages">
   <div class="cross-links__container">
-    <a href="/{{ locService.locationSlug }}-iphone-repair/" class="cross-links__back">&larr; All iPhone repairs in {{ locService.location }}</a>
+    <a href="/{{ locService.locationSlug }}-iphone-repair/" class="cross-links__back">&larr; All repairs in {{ locService.location }}</a>
     <div class="sibling-links">
       {% set siblings = [
         {name: "Screen Repair", slug: locService.locationSlug + "-iphone-screen-repair", service: "screen-repair"},
@@ -40,54 +73,130 @@ eleventyComputed:
   </div>
 </section>
 
-{# ── Intro Text + Benefits ── #}
-{% if locService.introText %}
-<section class="loc-intro" aria-labelledby="loc-intro-heading">
-  <div class="loc-intro__container">
-    <h2 class="loc-intro__heading" id="loc-intro-heading" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">{{ locService.service }} in {{ locService.location }}</h2>
-    <p class="loc-intro__text">{{ locService.introText }}</p>
-    {% if locService.benefits and locService.benefits.length %}
-    <ul class="loc-intro__benefits">
-      {% for benefit in locService.benefits %}
-      <li>{{ benefit }}</li>
+{# ── LAYOUT VARIANT A: Intro → FAQ → Benefits ── #}
+{% if layoutVariant == 0 %}
+
+  {% if locService.introText %}
+  <section class="loc-intro" aria-labelledby="loc-intro-heading">
+    <div class="loc-intro__container">
+      <h2 class="loc-intro__heading" id="loc-intro-heading">{{ locService.service }} in {{ locService.location }}</h2>
+      <div class="loc-intro__text">{{ locService.introText }}</div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if locService.faq and locService.faq.length %}
+  <section class="loc-faq" aria-labelledby="loc-faq-heading" itemscope itemtype="https://schema.org/FAQPage">
+    <div class="loc-faq__container">
+      <h2 class="loc-faq__heading" id="loc-faq-heading">Common Questions About {{ locService.service }} in {{ locService.location }}</h2>
+      {% for item in locService.faq %}
+      <details class="loc-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <summary class="loc-faq__question" itemprop="name">{{ item.q }}</summary>
+        <div class="loc-faq__answer-wrap" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p class="loc-faq__answer" itemprop="text">{{ item.a }}</p>
+        </div>
+      </details>
       {% endfor %}
-    </ul>
-    {% endif %}
-  </div>
-</section>
-{% endif %}
+    </div>
+  </section>
+  {% endif %}
 
-{# ── How It Works ── #}
-{% include "partials/how-it-works.njk" %}
+  {% if locService.benefits and locService.benefits.length %}
+  <section class="loc-benefits" aria-labelledby="loc-benefits-heading">
+    <div class="loc-benefits__container">
+      <h2 class="loc-benefits__heading" id="loc-benefits-heading">Why Choose Us for {{ locService.service }} in {{ locService.location }}</h2>
+      <ul class="loc-benefits__list">
+        {% for benefit in locService.benefits %}
+        <li class="loc-benefits__item">{{ benefit }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  {% endif %}
 
-{# ── Models Covered ── #}
-<section class="models-covered" aria-labelledby="loc-models-heading">
-  <div class="models-covered__container">
-    <h2 class="models-covered__heading" id="loc-models-heading">iPhone Models We Repair in {{ locService.location }}</h2>
-    <p class="models-covered__intro">We provide {{ locService.service | lower }} for all iPhone models in {{ locService.location }}, from the iPhone SE through to the latest iPhone 16 range.</p>
-    <ul class="models-covered__list">
-      {% for model in iphoneModels %}
-      <li class="models-covered__item">{{ model.name }}</li>
+{# ── LAYOUT VARIANT B: Benefits → Intro → FAQ ── #}
+{% elif layoutVariant == 1 %}
+
+  {% if locService.benefits and locService.benefits.length %}
+  <section class="loc-benefits" aria-labelledby="loc-benefits-heading">
+    <div class="loc-benefits__container">
+      <h2 class="loc-benefits__heading" id="loc-benefits-heading">{{ locService.service }} in {{ locService.location }} — What to Expect</h2>
+      <ul class="loc-benefits__list">
+        {% for benefit in locService.benefits %}
+        <li class="loc-benefits__item">{{ benefit }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if locService.introText %}
+  <section class="loc-intro" aria-labelledby="loc-intro-heading">
+    <div class="loc-intro__container">
+      <h2 class="loc-intro__heading" id="loc-intro-heading">About This Service in {{ locService.location }}</h2>
+      <div class="loc-intro__text">{{ locService.introText }}</div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if locService.faq and locService.faq.length %}
+  <section class="loc-faq" aria-labelledby="loc-faq-heading" itemscope itemtype="https://schema.org/FAQPage">
+    <div class="loc-faq__container">
+      <h2 class="loc-faq__heading" id="loc-faq-heading">{{ locService.location }} {{ locService.service }} — Your Questions Answered</h2>
+      {% for item in locService.faq %}
+      <details class="loc-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <summary class="loc-faq__question" itemprop="name">{{ item.q }}</summary>
+        <div class="loc-faq__answer-wrap" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p class="loc-faq__answer" itemprop="text">{{ item.a }}</p>
+        </div>
+      </details>
       {% endfor %}
-    </ul>
-  </div>
-</section>
+    </div>
+  </section>
+  {% endif %}
 
-{# ── FAQ Section ── #}
-{% if locService.faq and locService.faq.length %}
-<section class="loc-faq" aria-labelledby="loc-faq-heading">
-  <div class="loc-faq__container">
-    <h2 class="loc-faq__heading" id="loc-faq-heading">{{ locService.service }} in {{ locService.location }} - FAQs</h2>
-    {% for item in locService.faq %}
-    <div class="loc-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <h3 class="loc-faq__question" itemprop="name">{{ item.q }}</h3>
-      <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p class="loc-faq__answer" itemprop="text">{{ item.a }}</p>
+{# ── LAYOUT VARIANT C: Intro + Benefits combined → FAQ ── #}
+{% else %}
+
+  {% if locService.introText %}
+  <section class="loc-intro loc-intro--with-benefits" aria-labelledby="loc-intro-heading">
+    <div class="loc-intro__container">
+      <div class="loc-intro__split">
+        <div class="loc-intro__content">
+          <h2 class="loc-intro__heading" id="loc-intro-heading">{{ locService.service }} — {{ locService.location }}</h2>
+          <div class="loc-intro__text">{{ locService.introText }}</div>
+        </div>
+        {% if locService.benefits and locService.benefits.length %}
+        <aside class="loc-intro__sidebar">
+          <h3 class="loc-intro__sidebar-title">At a Glance</h3>
+          <ul class="loc-benefits__list loc-benefits__list--compact">
+            {% for benefit in locService.benefits %}
+            <li class="loc-benefits__item">{{ benefit }}</li>
+            {% endfor %}
+          </ul>
+        </aside>
+        {% endif %}
       </div>
     </div>
-    {% endfor %}
-  </div>
-</section>
+  </section>
+  {% endif %}
+
+  {% if locService.faq and locService.faq.length %}
+  <section class="loc-faq" aria-labelledby="loc-faq-heading" itemscope itemtype="https://schema.org/FAQPage">
+    <div class="loc-faq__container">
+      <h2 class="loc-faq__heading" id="loc-faq-heading">Frequently Asked — {{ locService.service }} in {{ locService.location }}</h2>
+      {% for item in locService.faq %}
+      <details class="loc-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <summary class="loc-faq__question" itemprop="name">{{ item.q }}</summary>
+        <div class="loc-faq__answer-wrap" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p class="loc-faq__answer" itemprop="text">{{ item.a }}</p>
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
 {% endif %}
 
 {# ── Testimonials ── #}
@@ -97,31 +206,39 @@ eleventyComputed:
 {# ── Contact Form ── #}
 {% include "partials/contact-form.njk" %}
 
-{# ── CTA Banner ── #}
-{% set ctaHeading = "Book " + locService.service + " in " + locService.location %}
-{% set ctaText = "We come to you anywhere in " + locService.location + " and most repairs are completed in under 30 minutes. Get a free, no-obligation quote today." %}
+{# ── CTA Banner - varied per layout ── #}
+{% set ctaMessages = [
+  "Need " + locService.service + " in " + locService.location + "? Call or text Sam on 07758 115476.",
+  "Book your " + locService.service | lower + " in " + locService.location + " — same-day appointments available.",
+  "Text your iPhone model and " + locService.location + " postcode to 07758 115476 for an instant quote."
+] %}
+{% set ctaHeading = ctaMessages[layoutVariant] %}
 {% include "partials/cta-banner.njk" %}
 
-{# ── Nearby Same-Service Links ── #}
+{# ── Nearby Same-Service Links (only show 5 nearest, not ALL locations) ── #}
+{% set nearbyForService = [] %}
+{% for loc in locations %}
+  {% if loc.name != locService.location %}
+    {% set nearbySlug = loc.slug | replace("-iphone-repair", "") %}
+    {% if locService.serviceSlug == "screen-repair" %}
+      {% set comboSlug = nearbySlug + "-iphone-screen-repair" %}
+    {% elif locService.serviceSlug == "battery-replacement" %}
+      {% set comboSlug = nearbySlug + "-iphone-battery-replacement" %}
+    {% else %}
+      {% set comboSlug = nearbySlug + "-iphone-charging-port-repair" %}
+    {% endif %}
+    {% set nearbyForService = (nearbyForService.push({name: loc.name, slug: comboSlug}), nearbyForService) %}
+  {% endif %}
+{% endfor %}
+
 <section class="cross-links" aria-labelledby="nearby-same-service">
   <div class="cross-links__container">
-    <h2 class="cross-links__heading" id="nearby-same-service">{{ locService.service }} in Nearby Areas</h2>
+    <h2 class="cross-links__heading" id="nearby-same-service">{{ locService.service }} Across Kent</h2>
     <ul class="cross-links__list">
-      {% for loc in locations %}
-        {% if loc.name != locService.location %}
-          {% set nearbySlug = loc.slug | replace("-iphone-repair", "") %}
-          {% set serviceType = locService.serviceSlug %}
-          {% if serviceType == "screen-repair" %}
-            {% set comboSlug = nearbySlug + "-iphone-screen-repair" %}
-          {% elif serviceType == "battery-replacement" %}
-            {% set comboSlug = nearbySlug + "-iphone-battery-replacement" %}
-          {% else %}
-            {% set comboSlug = nearbySlug + "-iphone-charging-port-repair" %}
-          {% endif %}
-          <li class="cross-links__item">
-            <a href="/{{ comboSlug }}/" class="cross-links__link">{{ loc.name }}</a>
-          </li>
-        {% endif %}
+      {% for nearby in nearbyForService %}
+        <li class="cross-links__item">
+          <a href="/{{ nearby.slug }}/" class="cross-links__link">{{ nearby.name }}</a>
+        </li>
       {% endfor %}
     </ul>
   </div>

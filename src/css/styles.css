@@ -573,6 +573,59 @@ strong.testimonial-card__name { text-decoration: none }
   .about-values__grid { grid-template-columns: 1fr 1fr }
 }
 
+/* === BREADCRUMBS === */
+.breadcrumb { padding: .75rem 0; border-bottom: 1px solid var(--border) }
+.breadcrumb__container { max-width: 1200px; margin: 0 auto; padding: 0 1.25rem }
+.breadcrumb__list { display: flex; flex-wrap: wrap; gap: .25rem; list-style: none; padding: 0; margin: 0; font-size: .85rem; color: var(--text-light) }
+.breadcrumb__item + .breadcrumb__item::before { content: "/"; margin-right: .25rem; color: var(--text-light) }
+.breadcrumb__item a { color: var(--orange); text-decoration: none }
+.breadcrumb__item a:hover { text-decoration: underline }
+
+/* === LOCATION INTRO COVERAGE TAGS === */
+.loc-intro__coverage { margin-top: 1.5rem }
+.loc-intro__coverage-title { font-size: 1rem; font-weight: 600; color: var(--navy); margin-bottom: .75rem }
+.loc-intro__area-tags { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; margin: 0 }
+.loc-intro__area-tag { background: var(--bg-alt); padding: .35rem .75rem; border-radius: 2rem; font-size: .85rem; color: var(--text) }
+
+/* === BENEFITS LIST === */
+.loc-benefits { padding: 3rem 0 }
+.loc-benefits__container { max-width: 1200px; margin: 0 auto; padding: 0 1.25rem }
+.loc-benefits__heading { font-size: 1.5rem; color: var(--navy); margin-bottom: 1.5rem }
+.loc-benefits__list { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem }
+.loc-benefits__item { padding: 1rem 1rem 1rem 2.5rem; background: var(--bg-alt); border-radius: .5rem; position: relative; line-height: 1.5 }
+.loc-benefits__item::before { content: "✓"; position: absolute; left: 1rem; top: 1rem; color: var(--orange); font-weight: 700 }
+.loc-benefits__list--compact { gap: .75rem }
+.loc-benefits__list--compact .loc-benefits__item { padding: .75rem .75rem .75rem 2rem; font-size: .9rem }
+.loc-benefits__list--compact .loc-benefits__item::before { left: .75rem; top: .75rem }
+@media (min-width: 768px) {
+  .loc-benefits__list { grid-template-columns: 1fr 1fr }
+}
+
+/* === FAQ DETAILS/SUMMARY === */
+.loc-faq__item { border-bottom: 1px solid var(--border); padding: 0 }
+.loc-faq__item summary { cursor: pointer; padding: 1.25rem 2rem 1.25rem 0; font-size: 1.05rem; font-weight: 600; color: var(--navy); position: relative; list-style: none }
+.loc-faq__item summary::-webkit-details-marker { display: none }
+.loc-faq__item summary::after { content: "+"; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 1.5rem; color: var(--orange); font-weight: 300 }
+.loc-faq__item[open] summary::after { content: "−" }
+.loc-faq__answer-wrap { padding: 0 0 1.25rem }
+.loc-faq__answer { color: var(--text); line-height: 1.7 }
+
+/* === SPLIT LAYOUT (Variant C) === */
+.loc-intro--with-benefits .loc-intro__split { display: grid; gap: 2rem }
+@media (min-width: 768px) {
+  .loc-intro--with-benefits .loc-intro__split { grid-template-columns: 1.5fr 1fr; align-items: start }
+}
+.loc-intro__sidebar { background: var(--bg-alt); padding: 1.5rem; border-radius: .75rem; border-left: 3px solid var(--orange) }
+.loc-intro__sidebar-title { font-size: 1.1rem; color: var(--navy); margin-bottom: 1rem; font-weight: 600 }
+
+/* === SIBLING LINKS === */
+.sibling-links { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .75rem }
+.sibling-links__item { padding: .4rem .9rem; border-radius: 2rem; font-size: .85rem; text-decoration: none; border: 1px solid var(--border); color: var(--text) }
+.sibling-links__item:hover { border-color: var(--orange); color: var(--orange) }
+.sibling-links__item--active { background: var(--orange); color: #fff; border-color: var(--orange) }
+.cross-links__back { color: var(--orange); text-decoration: none; font-size: .9rem }
+.cross-links__back:hover { text-decoration: underline }
+
 /* === UTILITIES === */
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0 }
 .text-center { text-align: center }

@@ -15,9 +15,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Ashford – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Ashford? Whether you're near the Designer Outlet, Ashford International Station or anywhere in the town centre, our mobile technician will come directly to you. We fix cracked screens, replace batteries, and repair charging ports on the spot – no need to visit a shop.",
-    "introText": "Ashford is one of Kent's fastest-growing towns, and we're proud to offer a convenient mobile iPhone repair service to residents and workers across the area. From the bustling high street to the retail parks and business estates, we come to your location and complete most repairs in under 30 minutes. Whether you've cracked your screen at work or your battery is letting you down at home, we'll get you sorted quickly and affordably."
+    "heroTitle": "Mobile iPhone Repair Across Ashford & Surrounding Villages",
+    "heroDescription": "From Park Farm to Kennington, our technician brings professional iPhone repairs to your door anywhere in the TN23, TN24 and TN25 postcode areas. Screens, batteries, charging ports - fixed where you are.",
+    "introText": "Ashford has transformed over the past two decades from a quiet market town into one of Kent's major growth centres, with thousands of new homes across Park Farm, Singleton, and the Repton Park developments. That rapid expansion means residents are often spread far from the town centre, making a traditional repair shop visit a real inconvenience. Our mobile technician covers every corner of the borough, from the offices at Eureka Business Park and Orbital Park to the residential streets of Willesborough and Kennington. Commuters who rely on Ashford International for the HS1 service into St Pancras know how critical a working phone is for tickets, timetables, and keeping in touch during the journey. Students heading to local colleges, workers grabbing lunch near the McArthurGlen Designer Outlet, families in the new-build estates along the A28 corridor - all of them depend on a functioning device daily. When something goes wrong, there is no need to drive across town or post your phone away. We meet you wherever suits you and carry out the repair right there, bringing genuine Apple-quality parts and the tools to handle everything from a shattered display to a worn-out battery or temperamental charging socket.",
+    "localAreas": [
+      "Kennington",
+      "Willesborough",
+      "Singleton",
+      "Park Farm",
+      "Kingsnorth",
+      "Great Chart",
+      "Mersham",
+      "Wye"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Cracked your screen at the Designer Outlet or on the commute from Ashford International? We replace it at your Park Farm home or Eureka Way office.",
+      "battery-replacement": "Ashford commuters rely on their phones for train times and contactless payments. If yours dies before you reach St Pancras, a new battery takes twenty minutes.",
+      "charging-port-repair": "Lint and debris from Ashford's building sites and retail parks are the top cause of charging issues. We clean or replace the port at your location."
+    }
   },
   {
     "name": "Maidstone",
@@ -35,9 +50,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Maidstone – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Maidstone? As the county town of Kent, Maidstone is at the heart of our mobile repair coverage. Whether you're near the Fremlin Walk shopping centre, Maidstone East station, or working from an office on the river, we'll come to you and fix your iPhone on the spot.",
-    "introText": "Maidstone sits at the centre of Kent, making it an ideal hub for our mobile iPhone repair service. We regularly visit homes, offices, and workplaces throughout the town and surrounding areas. Whether your screen is cracked, your battery is failing, or your charging port has stopped working, our technician will travel to you and have your phone repaired quickly – often on the same day you get in touch."
+    "heroTitle": "Maidstone iPhone Repairs - Kent's County Town, Covered",
+    "heroDescription": "Professional mobile iPhone repair serving Maidstone from Bearsted to Barming, Penenden Heath to Allington. The county town's go-to repair service - at your location, not ours.",
+    "introText": "As Kent's county town and administrative centre, Maidstone is a place where people are constantly on the move - council workers heading between offices, shoppers navigating Fremlin Walk and The Mall, commuters splitting between Maidstone East and Maidstone West stations. The River Medway runs through the heart of it all, connecting communities from Allington and Barming in the west to Bearsted and Penenden Heath in the east. With the ME14, ME15, and ME16 postcodes covering such a wide area, finding time to visit a repair shop in town is often more trouble than the repair itself. That is exactly why a mobile service makes so much sense here. Our technician regularly visits offices in the business parks near junction 7 of the M20, homes in the quieter suburbs around Loose and Coxheath, and student accommodation near the town centre. Maidstone also serves as a base for people working across much of mid-Kent, so a dead phone can genuinely disrupt an entire day. We carry the parts and expertise to resolve screen damage, battery degradation, and charging faults during a single visit, fitting around your schedule rather than forcing you to rearrange it.",
+    "localAreas": [
+      "Bearsted",
+      "Barming",
+      "Allington",
+      "Penenden Heath",
+      "Tovil",
+      "Loose",
+      "Coxheath",
+      "Marden"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Whether it slipped on the steps at County Hall or hit the pavement outside Fremlin Walk, we fix your screen at any address across the ME postcode area.",
+      "battery-replacement": "County town life keeps your phone busy — court appointments, council meetings, Lockmeadow weekends. A fresh battery at your Bearsted or Penenden Heath home keeps everything running.",
+      "charging-port-repair": "River Medway towpath grit and pocket debris from The Mall shopping trips clog charging ports over time. Our technician inspects and repairs the port at your Maidstone workplace or home."
+    }
   },
   {
     "name": "Canterbury",
@@ -55,9 +85,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Canterbury – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Canterbury? Whether you're a student at one of the universities, working in the city centre, or based near the historic cathedral quarter, our mobile repair service comes directly to your door. Fast screen replacements, battery swaps, and charging port fixes – all done on-site.",
-    "introText": "Canterbury is one of Kent's most vibrant cities, home to thousands of students and professionals who rely on their iPhones every day. We provide a mobile repair service across Canterbury, visiting homes, university halls, offices, and cafes to fix iPhones on the spot. From cracked screens to dead batteries, our technician arrives with everything needed to get your device back in working order – usually within 30 minutes."
+    "heroTitle": "Canterbury iPhone Repair - Students, Residents & Visitors Welcome",
+    "heroDescription": "Serving CT1 and CT2 from the Cathedral quarter to Wincheap, Sturry to Blean. iPhone screen, battery and charging port repairs brought to your uni hall, home or workplace.",
+    "introText": "With over 30,000 students between the University of Kent up on the hill and Canterbury Christ Church University closer to the centre, Canterbury has one of the youngest, most phone-dependent populations in the county. A cracked screen or dead battery is not just an annoyance here - it is a missed lecture, a lost assignment deadline, or a disrupted social life. Beyond the student population, Canterbury is a UNESCO World Heritage city that draws millions of visitors each year, supports a thriving retail scene around Whitefriars shopping centre, and hosts cultural events at The Marlowe Theatre throughout the year. Residents in Sturry, Blean, Harbledown, and Wincheap all rely on their devices for everything from parking apps to keeping up with the Canterbury community Facebook groups. Replacing a phone is expensive, especially on a student budget, so professional repair is the sensible option. Our technician visits anywhere in the CT1 and CT2 postcode areas - campus accommodation, shared houses on St Dunstan's Street, family homes in the suburbs, or offices near the ring road. We bring quality replacement parts and complete the work in a single sitting, so you keep both your phone and your plans for the day intact.",
+    "localAreas": [
+      "Sturry",
+      "Blean",
+      "Harbledown",
+      "Thanington",
+      "Wincheap",
+      "Bridge",
+      "Chartham",
+      "Littlebourne"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Dropped your phone on the Cathedral quarter cobblestones or in a Keynes College lecture hall? Our technician meets you on campus or at your Canterbury flat.",
+      "battery-replacement": "When you're photographing Canterbury's medieval streets all day, your battery takes a beating. We swap it at your digs or workplace in the CT1 or CT2 area.",
+      "charging-port-repair": "Student phones collect pocket lint and bag debris. If your iPhone only charges at odd angles, we fix the port at your halls or Wincheap flat."
+    }
   },
   {
     "name": "Folkestone",
@@ -75,9 +120,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Folkestone – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Folkestone? From the Creative Quarter and harbour area to the residential streets around Cheriton and Sandgate, we bring our mobile repair service straight to you. Cracked screens, battery issues, and charging faults fixed on the spot with no need to leave your home or workplace.",
-    "introText": "Folkestone has seen a fantastic revival in recent years, with its thriving creative scene and coastal charm attracting new residents and businesses. Our mobile iPhone repair service covers all of Folkestone and the surrounding areas, bringing fast and affordable repairs to your door. Whether you've dropped your phone on the Leas or your battery has given up during a day at the harbour, we'll come to you and fix it quickly."
+    "heroTitle": "Folkestone iPhone Repair - Creative Quarter to Cheriton",
+    "heroDescription": "iPhone repairs across the CT19 and CT20 postcode areas. From Harbour Arm to Sandgate, our mobile technician visits your chosen location with parts and tools ready.",
+    "introText": "Folkestone has reinvented itself in remarkable fashion. The Creative Quarter around The Old High Street now buzzes with independent galleries, studios, and cafes, while Harbour Arm has become one of Kent's most photographed spots. It is a town attracting young professionals, artists, and remote workers who depend on their devices as much as any Londoner. Yet Folkestone still lacks the kind of high-street repair chains you would find in larger cities, and the nearest Apple Store is a long drive away. Our mobile service fills that gap across the entire CT19 and CT20 area, reaching homes in Cheriton, the Victorian streets off the Leas, the seafront properties in Sandgate, and the estates further up the hill towards Cherry Garden. With the Eurotunnel terminal at nearby Cheriton, the town also sees a constant flow of travellers who sometimes discover phone damage right before a crossing. Wherever you are in Folkestone, we will come to you with quality parts and professional tools. Screen replacements, battery swaps, and charging port work are all handled during a single appointment, letting you carry on enjoying everything this regenerating coastal town has to offer.",
+    "localAreas": [
+      "Cheriton",
+      "Sandgate",
+      "Morehall",
+      "Hawkinge",
+      "Capel-le-Ferne",
+      "Hythe Road",
+      "Foord",
+      "West End"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "A tumble on the cobbles of the Creative Quarter or a gust off the Harbour Arm can send your iPhone flying. We repair the screen at your Folkestone home or studio.",
+      "battery-replacement": "Between gallery visits, Harbour Arm sunset sessions, and Channel views from the Leas, Folkestone drains batteries quickly. We fit a new one at your Cheriton or Sandgate address.",
+      "charging-port-repair": "Salt air along the seafront corrodes charging contacts faster than inland. Our technician cleans or replaces the port at your Morehall home or Bouverie Place workspace."
+    }
   },
   {
     "name": "Sittingbourne",
@@ -95,9 +155,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Sittingbourne – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Sittingbourne? Whether you're in the town centre, near the retail park, or based on one of the surrounding estates, our mobile technician will come to you. We fix screens, replace batteries, and repair charging ports at your home or workplace – most repairs completed in under 30 minutes.",
-    "introText": "Sittingbourne is a busy town in the Swale district, and many of its residents and workers depend on their iPhones daily. Our mobile repair service covers all of Sittingbourne and the surrounding villages, offering fast turnaround on screen replacements, battery swaps, and charging port fixes. There's no need to post your phone or visit a high street shop – we come to you and get the job done on the spot."
+    "heroTitle": "Sittingbourne iPhone Repair - Kemsley to Bapchild, At Your Door",
+    "heroDescription": "Covering ME9 and ME10 postcodes across Sittingbourne, Milton Regis, Teynham and surrounding villages. Professional iPhone fixes delivered to your location.",
+    "introText": "Built on a heritage of paper mills and brickworks, Sittingbourne today is a working town where practicality matters. Residents across Kemsley, Milton Regis, Murston, and the newer developments along the A2 corridor need their phones for shift schedules, school runs, and staying connected with family. The Forum shopping centre and surrounding high street serve as the commercial heart, but the town stretches out into quieter areas like Bapchild, Teynham, and Rodmersham where a round trip to a repair shop eats into a busy day. Our mobile service was designed with exactly this kind of community in mind. We visit homes on the Kemsley estate, workplaces near the industrial areas off the Eurolink, and addresses in the surrounding ME9 and ME10 villages without any fuss. Sittingbourne sits right on the mainline between London Victoria and the coast, so a broken phone also means losing access to train tickets and real-time travel updates. Rather than spending your lunch break in a queue or going days without your device, you can have a technician at your door with the right parts to resolve screen damage, battery problems, or charging faults in a single visit.",
+    "localAreas": [
+      "Kemsley",
+      "Milton Regis",
+      "Murston",
+      "Bapchild",
+      "Teynham",
+      "Rodmersham",
+      "Iwade",
+      "Newington"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Shattered your screen in the Forum shopping centre car park or on a Kemsley estate school run? We meet you at home and replace it during your lunch break.",
+      "battery-replacement": "Shift workers at the Kemsley paper mills and Eurolink industrial estate cannot afford a dead phone mid-shift. A new battery fitted at your door keeps you connected.",
+      "charging-port-repair": "Dust from the Milton Regis brickfields and industrial yards works its way into charging ports. We clear the blockage or replace the connector at your ME10 address."
+    }
   },
   {
     "name": "Dover",
@@ -115,9 +190,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Dover – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Dover? From the town centre and Dover Castle area to the residential streets of Whitfield and River, our mobile repair technician comes directly to your location. Screen replacements, battery swaps, and charging port repairs – all completed on-site in under 30 minutes.",
-    "introText": "Dover is one of Kent's most iconic towns, known for its famous white cliffs and busy port. Our mobile iPhone repair service is available throughout Dover and the surrounding areas, bringing convenient repairs to your home, office, or any other location. Whether your screen is cracked, your battery is draining fast, or your phone won't charge, we'll visit you and have it fixed quickly – no shop visit required."
+    "heroTitle": "Dover iPhone Repair - Port Town, Rapid Service",
+    "heroDescription": "From the White Cliffs to Whitfield, Buckland to River - mobile iPhone repair covering all CT16 and CT17 postcodes. Screens, batteries and charging ports fixed at your location.",
+    "introText": "Dover is a town defined by movement. Millions of passengers pass through the Port of Dover every year, lorries queue along the A20, and locals navigate daily life against this constant backdrop of transit. A working phone is not optional here - it is your ferry booking confirmation, your border paperwork, your connection to colleagues while stuck in port traffic. Beyond the docks, Dover is a community of residential streets in Buckland and River, growing retail and housing developments around Whitfield, and the historic castle perched above it all looking out toward France. The CT16 and CT17 postcodes cover a surprisingly varied area, from the steep terraces near the seafront to the suburban estates further inland along Deal Road. Travelling to a repair shop is an added burden when your daily routine already involves navigating one of Kent's busiest transport hubs. Our technician comes directly to wherever you are - your home, your workplace, a car park near the port if that is what works. We carry everything needed to replace damaged screens, fit fresh batteries, and repair faulty charging ports, all completed during a single appointment so you are not left disconnected in a town where connectivity genuinely matters.",
+    "localAreas": [
+      "Buckland",
+      "Whitfield",
+      "River",
+      "Temple Ewell",
+      "Guston",
+      "Aycliffe",
+      "Kearsney",
+      "Capel-le-Ferne"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Cracked your screen rushing for a ferry at the Port or walking the White Cliffs trail? We repair it at your Buckland terrace or Whitfield new-build.",
+      "battery-replacement": "Port workers and hauliers stuck in A20 queues need a phone that lasts the shift. We fit a fresh battery at your River home or Market Square workplace.",
+      "charging-port-repair": "Chalk dust from the cliffs and coastal moisture accelerate port corrosion in Dover. Our technician restores reliable charging at your CT16 or CT17 address."
+    }
   },
   {
     "name": "Herne Bay",
@@ -135,9 +225,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Herne Bay – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Herne Bay? Whether you're along the seafront, near the clock tower, or in the residential areas around Greenhill and Beltinge, we'll come to you. Our mobile technician fixes cracked screens, replaces batteries, and repairs charging ports – all at your location.",
-    "introText": "Herne Bay is a popular seaside town on the north Kent coast, and our mobile iPhone repair service is fully available to residents and workers across the area. We travel to homes, workplaces, and other convenient locations to carry out screen repairs, battery replacements, and charging port fixes. Most jobs are completed in under 30 minutes, so you won't be without your phone for long."
+    "heroTitle": "Herne Bay iPhone Repair - Seafront to Hampton, Direct to You",
+    "heroDescription": "Mobile iPhone repairs across CT6 - from the Clock Tower seafront to Beltinge and Reculver. Screen, battery and charging port service at your home or workplace.",
+    "introText": "Did you know Herne Bay was home to the first freestanding clock tower in the country? The town has always had a quiet pride in doing things its own way, and that independent spirit lives on in its community today. Stretching along the north Kent coast from Swalecliffe in the west through Hampton and out to Beltinge and the ruins at Reculver, Herne Bay is a traditional seaside town that has avoided the heavy commercialisation of some of its neighbours. That also means fewer repair options on the high street. Retired residents, young families on the newer estates, and people working from home along the CT6 postcode area all depend heavily on their phones but face a trip to Canterbury or Whitstable if something goes wrong. Our mobile repair service removes that inconvenience entirely. We visit addresses across the whole of Herne Bay, from the seafront flats near the bandstand to the bungalow-lined streets of Greenhill and the family homes further inland. Screens that have cracked on the promenade, batteries drained by the sea air and constant use, charging ports clogged with pocket lint - we handle all of it at your location with professional-grade parts and the experience to do the job properly first time.",
+    "localAreas": [
+      "Hampton",
+      "Beltinge",
+      "Greenhill",
+      "Eddington",
+      "Broomfield",
+      "Herne",
+      "Hillborough",
+      "Studd Hill"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Dropped your phone near the Clock Tower seafront or on the promenade at Hampton? We replace the screen at your CT6 home while the kettle boils.",
+      "battery-replacement": "Long walks out to Reculver and blustery beach days drain batteries fast. We fit a replacement at your Beltinge bungalow or Greenhill family home.",
+      "charging-port-repair": "Sand from Herne Bay's beaches and sea-salt moisture are tough on charging ports. Our technician fixes the connection issue at your Herne village or Hampton address."
+    }
   },
   {
     "name": "Faversham",
@@ -155,9 +260,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Faversham – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Faversham? From the historic market town centre and creek-side area to surrounding villages like Boughton and Ospringe, our mobile technician comes to you. Fast screen, battery, and charging port repairs completed on-site – no need to leave home.",
-    "introText": "Faversham is one of Kent's most charming market towns, known for its historic buildings and thriving community. Our mobile iPhone repair service covers all of Faversham and the nearby villages, providing fast and reliable repairs at your doorstep. Whether you need a cracked screen replaced, a new battery fitted, or a charging port fixed, we'll visit your home or workplace and sort it out quickly."
+    "heroTitle": "Faversham iPhone Repair - Britain's Oldest Brewing Town, Modern Service",
+    "heroDescription": "Covering Faversham's ME13 postcode from the Creek to Boughton, Oare to Selling. Your iPhone repaired at your door - no trip to Canterbury or Maidstone needed.",
+    "introText": "Faversham holds a special place in English history - home to Shepherd Neame, the oldest brewer in Britain, and a market town whose medieval streets and creek-side warehouses tell stories going back centuries. But this is no museum piece. The ME13 postcode area is full of working families, small business owners, and commuters who use the fast train service to London. The town centre around Market Place, Court Street, and Preston Street is compact enough to walk but spread enough that you will notice when your phone dies mid-errand. Surrounding villages like Oare, Boughton-under-Blean, Selling, and Hernhill add a rural dimension where the nearest phone shop might be a 20-minute drive. Our mobile repair service reaches all of them. We visit homes in the conservation area, offices in the small business parks, and farmhouses in the surrounding countryside with equal ease. Faversham residents value quality and authenticity - they support local brewers, independent shops, and artisan markets rather than faceless chains. We work in that same spirit, arriving with professional parts and genuine expertise to fix your screen, battery, or charging port face-to-face, with no middlemen and no waiting days for a postal return.",
+    "localAreas": [
+      "Oare",
+      "Boughton-under-Blean",
+      "Selling",
+      "Hernhill",
+      "Ospringe",
+      "Davington",
+      "Preston",
+      "Eastling"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Fumbled your phone on the cobbles by Shepherd Neame brewery or at the Saturday market? We fix the screen at your ME13 home or Creek-side office.",
+      "battery-replacement": "Between photographing the Creek at golden hour and navigating hop festival crowds, Faversham life demands battery stamina. We fit a new cell at your Oare or Boughton address.",
+      "charging-port-repair": "Creek mud, market-day dust, and pocket crumbs from artisan bakeries all find their way into ports. We restore charging at your Selling farmhouse or Davington terrace."
+    }
   },
   {
     "name": "Thanet",
@@ -175,9 +295,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Thanet – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Thanet? We cover the entire Isle of Thanet, including Margate, Ramsgate, Broadstairs, Westgate-on-Sea, and Birchington. Our mobile technician comes to your home or workplace and fixes screens, batteries, and charging ports on the spot.",
-    "introText": "The Isle of Thanet is home to some of Kent's most popular coastal towns, and our mobile iPhone repair service covers the entire district. Whether you're in Margate's Old Town, near Ramsgate harbour, or at home in Broadstairs, we'll come to you and carry out your repair on-site. From cracked screens to failing batteries, most fixes take less than 30 minutes – and there's no need to visit a shop or post your phone anywhere."
+    "heroTitle": "Isle of Thanet iPhone Repair - Margate, Ramsgate & Broadstairs",
+    "heroDescription": "One technician, three towns, complete coverage. Mobile iPhone repairs across the CT9 to CT12 postcode areas on the Isle of Thanet - at your home, workplace or cafe.",
+    "introText": "The Isle of Thanet is technically no longer an island, but it still feels like its own distinct corner of Kent. Margate, Ramsgate, and Broadstairs each have their own personality - Margate with its Turner Contemporary gallery and revived Old Town, Ramsgate with its Royal Harbour and Regency architecture, Broadstairs with Viking Bay and its Dickens heritage. Together they form a community of around 140,000 people stretched across the CT9 through CT12 postcode areas, from Westgate-on-Sea and Birchington in the west to the Nethercourt and St Lawrence neighbourhoods in the south. Thanet sits at the very tip of Kent, a long way from the Apple Stores and big repair chains clustered around London and the M25. That remoteness makes mobile repair especially valuable here. Seasonal workers in the hospitality trade, DFL newcomers renovating Victorian terraces, long-term residents in Cliftonville, students at the East Kent College campus - all of them benefit from having a qualified technician who will drive to their location rather than expecting them to make a journey. We cover the entire district and carry parts for screen replacements, battery fitting, and charging port repairs, completing everything during one visit.",
+    "localAreas": [
+      "Westgate-on-Sea",
+      "Birchington",
+      "Cliftonville",
+      "Manston",
+      "Minster-in-Thanet",
+      "St Nicholas-at-Wade",
+      "Acol",
+      "Monkton"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "From Cliftonville's Victorian terraces to Birchington's bungalow avenues, cracked screens are an island-wide problem. We repair yours wherever you are across CT9 to CT12.",
+      "battery-replacement": "Seasonal hospitality workers across Thanet's three towns need all-day power for booking apps and card machines. A twenty-minute battery swap at your venue keeps trade flowing.",
+      "charging-port-repair": "Coastal sand and sea spray affect charging reliability across the whole Isle of Thanet. We inspect, clean, or replace the port at your Westgate or Minster home."
+    }
   },
   {
     "name": "Broadstairs",
@@ -195,9 +330,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Broadstairs – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Broadstairs? Whether you're near Viking Bay, the high street, or in the residential areas of St Peter's and Dumpton, our mobile repair service comes to you. Screen replacements, battery swaps, and charging port repairs – all done at your location.",
-    "introText": "Broadstairs is a picturesque seaside town on the Isle of Thanet, popular with families and commuters alike. Our mobile iPhone repair service brings convenient, same-day fixes to residents and workers across Broadstairs. From screen replacements to battery swaps and charging port repairs, we do everything on-site at your home or workplace – no shops, no postage, no hassle."
+    "heroTitle": "Broadstairs iPhone Repair - Viking Bay to Dumpton, Doorstep Service",
+    "heroDescription": "CT10 mobile iPhone repairs - from the cliff-top walks of Kingsgate to the family beaches of Joss Bay. Screen, battery and charging port fixes at your chosen spot.",
+    "introText": "Charles Dickens loved Broadstairs, and it is easy to understand why. The town has a warmth and character that bigger resorts cannot replicate - from the sandy arc of Viking Bay to the independent shops along the High Street and the annual Dickens Festival that fills the streets with Victorian costumes. The CT10 postcode takes in Dumpton to the south, Kingsgate and its dramatic chalk stacks to the north, and the residential streets between them where families and retirees make up a close-knit community. Broadstairs does not have the commercial infrastructure of a larger town, so when your iPhone screen shatters on the harbour steps or your battery struggles through a long summer day at Joss Bay, your options are limited without travelling to Margate or Ramsgate. Our mobile technician bridges that gap by coming directly to your address in Broadstairs. Whether you are in a flat overlooking the bay, a house up on the Dumpton Park estate, or running a B&B near the seafront, we arrive with the parts and tools to handle screen damage, battery replacement, and charging faults. The work is completed while you wait, keeping disruption to a minimum in a town that prides itself on a relaxed pace of life.",
+    "localAreas": [
+      "Dumpton",
+      "Kingsgate",
+      "St Peters",
+      "Reading Street",
+      "Upton",
+      "Bromstone",
+      "Pierremont",
+      "Joss Bay"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Viking Bay's pebbles and Joss Bay's rocks have claimed many an iPhone screen. We replace yours at your Dumpton Park flat or Reading Street cottage.",
+      "battery-replacement": "Dickens Festival weekends and long summer days at Stone Bay push batteries to the limit. We fit a fresh one at your CT10 address in under half an hour.",
+      "charging-port-repair": "Beach sand is the silent enemy of charging ports in Broadstairs. We remove debris and restore full charging at your Kingsgate or St Peters home."
+    }
   },
   {
     "name": "Margate",
@@ -215,9 +365,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Margate – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Margate? From the Turner Contemporary gallery and Old Town area to Cliftonville and Westbrook, our mobile technician travels to your location. We fix cracked screens, replace batteries, and repair charging ports on the spot – usually in under 30 minutes.",
-    "introText": "Margate has undergone a remarkable regeneration and is now one of Kent's most exciting coastal destinations. Our mobile iPhone repair service is available throughout Margate and the wider Thanet area. Whether you've dropped your phone at Dreamland, on the beach, or at home, our technician will come to you and complete the repair quickly. No need to queue at a shop – we bring the repair to your door."
+    "heroTitle": "Margate iPhone Repair - Old Town to Cliftonville, Sorted Fast",
+    "heroDescription": "Serving CT9 from Turner Contemporary to Westbrook and Palm Bay. Professional iPhone screen, battery and charging port repair - we travel to you across Margate.",
+    "introText": "Margate's regeneration story is one of the most talked-about in the country. The opening of Turner Contemporary transformed the Old Town into a destination for artists, gallery owners, and weekend visitors from London, while Dreamland's revival brought new energy to the seafront. Behind the headlines, though, Margate is a working town with real neighbourhoods - Cliftonville's bedsits and Victorian terraces, Westbrook's family streets, Palm Bay's quieter residential roads, and the Dane Valley estates further back from the coast. It is a town of contrasts, and phone repair needs reflect that. A cafe owner in the Old Town cannot afford to be without their device when orders and bookings run through it. A parent in Westbrook needs their phone for the school WhatsApp group and local NHS appointments. A Dreamland staff member relies on theirs for shift rotas and contactless payments. Margate is also geographically isolated at Kent's northeast tip, meaning the nearest major repair centre involves a significant journey. We eliminate that problem by bringing our service directly to CT9 addresses. Our technician arrives with screens, batteries, and charging port components ready to fit, completing the job in a single visit so Margate residents can focus on what matters to them.",
+    "localAreas": [
+      "Cliftonville",
+      "Westbrook",
+      "Palm Bay",
+      "Garlinge",
+      "Dane Valley",
+      "Northdown",
+      "Salmestone",
+      "Hartsdown"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Smashed your screen outside Turner Contemporary or on Dreamland's rides? We replace it at your Old Town flat or Cliftonville Victorian terrace.",
+      "battery-replacement": "Cafe owners in the Old Town and Dreamland staff depend on their phones for orders and shift rotas. A quick battery swap at your premises keeps the day moving.",
+      "charging-port-repair": "Westbrook beach sand and Dane Valley pocket lint both cause charging failures. Our technician diagnoses and fixes the port at your CT9 home or workspace."
+    }
   },
   {
     "name": "Ramsgate",
@@ -235,9 +400,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Ramsgate – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Ramsgate? Whether you're near the Royal Harbour, in the town centre, or based in Nethercourt or Newington, our mobile technician will come directly to you. Fast screen, battery, and charging port repairs – completed at your home or workplace.",
-    "introText": "Ramsgate is a historic harbour town on the Isle of Thanet, with a strong community and growing number of businesses. Our mobile iPhone repair service covers all of Ramsgate and the surrounding areas, offering fast turnaround on the most common iPhone issues. Whether you need a screen replacement, battery swap, or charging port fix, we'll visit your location and get it done – typically in under 30 minutes."
+    "heroTitle": "Ramsgate iPhone Repair - Royal Harbour Town, Personal Service",
+    "heroDescription": "Covering CT11 and CT12 from the Royal Harbour marina to Nethercourt and St Lawrence. iPhone screen, battery and charging repairs at your Ramsgate address.",
+    "introText": "Ramsgate earned its Royal prefix from King George IV, and the town's harbour remains the only Royal Harbour in the country. That maritime heritage gives Ramsgate a distinct identity among the Thanet towns - grittier than Broadstairs, less artsy than Margate, but with a proud sense of self. The harbour-side restaurants, the Maritime Museum, and the Italianate architecture along the clifftop all contribute to a town that is increasingly attracting new residents and small businesses. The CT11 and CT12 postcodes cover everything from the dense Victorian streets around the harbour up through Nethercourt, St Lawrence, and out toward Pegwell Bay with its nature reserve. Many of these areas are residential and quiet, without the passing trade that sustains repair shops on busier high streets. Local business owners running operations from the harbour arches, families in the Newington estate, and remote workers in the period conversions near the seafront all share the same problem when a phone breaks - limited local options. Our technician visits any address in the Ramsgate area, bringing professional-grade components for screen, battery, and charging port work. Everything is handled during one appointment at your location, whether that is a boat in the marina or a house on the hill.",
+    "localAreas": [
+      "Nethercourt",
+      "St Lawrence",
+      "Newington",
+      "Pegwell",
+      "Elms Avenue",
+      "Hereson",
+      "Chilton",
+      "Dumpton"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Whether it hit the harbour cobbles or the deck of your boat in the Royal Harbour marina, we replace your screen at any CT11 or CT12 address.",
+      "battery-replacement": "Marina business owners and harbour-arch studio workers need constant connectivity. We fit a new battery at your Ramsgate premises or Nethercourt family home.",
+      "charging-port-repair": "Maritime moisture around the Royal Harbour accelerates port wear. Our technician cleans or replaces the connector at your St Lawrence or Pegwell Bay home."
+    }
   },
   {
     "name": "Whitstable",
@@ -255,9 +435,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Whitstable – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Whitstable? From the harbour and high street to Tankerton slopes and the surrounding residential areas, our mobile technician comes to you. Screen replacements, battery swaps, and charging port repairs – all completed on-site with no shop visit needed.",
-    "introText": "Whitstable is a charming coastal town known for its oysters, independent shops, and vibrant community. Our mobile iPhone repair service is fully available across Whitstable, bringing fast and affordable fixes to your home or workplace. Whether your screen is cracked, your battery is on its last legs, or your phone won't charge, we'll come to you and have it repaired quickly – usually on the same day."
+    "heroTitle": "Whitstable iPhone Repair - Harbour to Tankerton, To Your Door",
+    "heroDescription": "CT5 mobile iPhone service from the oyster harbour to Seasalter and Swalecliffe. Screens, batteries and charging ports repaired at your Whitstable location.",
+    "introText": "Whitstable punches well above its weight. This small coastal town in CT5 has become one of Kent's most desirable places to live, famous for its oyster heritage, independent food scene, and the gentle slopes of Tankerton with their colourful beach huts. Property prices reflect the demand, and the population skews toward creative professionals, food industry workers, and commuters who have traded London for sea air and a fast train from nearby Canterbury. For a town of its reputation, Whitstable is surprisingly compact - the harbour, Harbour Street's boutiques, and the residential streets of Seasalter and Swalecliffe are all within a few minutes of each other. But that also means repair options are thin on the ground. The independent spirit that defines Whitstable extends to how people prefer their services - personal, direct, and without corporate friction. Our mobile repair service fits that ethos perfectly. We come to your fisherman's cottage on Island Wall, your modern flat near the Horsebridge arts centre, or your family home in Tankerton and carry out the repair while you wait. Screen damage from a windy walk along the shingle, battery drain from photographing sunsets, charging ports worn out from daily use - we fix them all with quality components and care that matches the standards Whitstable residents expect.",
+    "localAreas": [
+      "Tankerton",
+      "Seasalter",
+      "Swalecliffe",
+      "Joy Lane",
+      "Church Street",
+      "Island Wall",
+      "Borstal Hill",
+      "Duncan Down"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "A slip on Harbour Street's wet cobbles or a pebble-beach mishap can crack any screen. We repair it at your Tankerton beach-hut row or Island Wall cottage.",
+      "battery-replacement": "Oyster festival weekends and Seasalter sunset photography sessions kill batteries early. We replace yours at your CT5 home while you plan the next golden-hour shot.",
+      "charging-port-repair": "Shingle-beach grit and the damp sea air along Tankerton Slopes take a toll on ports. We fix charging issues at your Swalecliffe flat or Joy Lane address."
+    }
   },
   {
     "name": "Sandwich",
@@ -275,9 +470,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Sandwich – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Sandwich? Whether you're in the medieval town centre, near the quay, or working at one of the nearby business parks, our mobile repair technician will come to your location. We fix screens, replace batteries, and repair charging ports – all on the spot.",
-    "introText": "Sandwich is one of the best-preserved medieval towns in England, and our mobile iPhone repair service brings modern convenience to this historic location. We cover Sandwich and the surrounding area, travelling to homes and workplaces to carry out screen replacements, battery swaps, and charging port repairs. Most jobs are completed in under 30 minutes, so you can get back to your day with minimal disruption."
+    "heroTitle": "Sandwich iPhone Repair - Medieval Town, Modern Fix",
+    "heroDescription": "Serving Sandwich and the surrounding CT13 villages including Ash, Wingham and Worth. iPhone screen, battery and charging port repairs brought to your door.",
+    "introText": "Sandwich is one of England's best-preserved medieval towns, a former major port now sitting quietly a couple of miles from the coast as the River Stour silted up over the centuries. The quayside, the Barbican toll bridge, and the timber-framed buildings along Strand Street create an atmosphere that feels a world away from modern technology - until you need your phone and it will not switch on. The CT13 postcode extends beyond the town walls into surrounding villages like Ash, Wingham, Eastry, and Worth, where rural life means even fewer local services. Sandwich also sits adjacent to the Pfizer and Discovery Park business campus, which employs hundreds of people working in science and technology who need reliable devices daily. Golfers visiting Royal St George's and the Open Championship links courses add to the seasonal demand. For all of these people, a broken iPhone creates genuine inconvenience, and the alternatives - a drive to Canterbury or Deal, or posting the phone away for days - are far from ideal. Our technician covers the whole Sandwich area, visiting your home, office, or any convenient meeting point. We handle screen replacements, battery fitting, and charging port repairs with professional parts, completing the work in a single visit.",
+    "localAreas": [
+      "Ash",
+      "Wingham",
+      "Eastry",
+      "Worth",
+      "Woodnesborough",
+      "Richborough",
+      "Preston",
+      "Staple"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Dropped your phone on the medieval Quay or the fairway at Royal St George's? We fix the screen at your Sandwich cottage or Discovery Park office.",
+      "battery-replacement": "Pfizer and Discovery Park staff rely on phones for lab coordination and building access. We swap the battery at your desk or your Worth village home.",
+      "charging-port-repair": "Dust from the Richborough farmlands and the Stour estuary breeze affect port reliability. We repair the connector at your Wingham or Eastry address."
+    }
   },
   {
     "name": "Deal",
@@ -295,9 +505,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Deal – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Deal? From the seafront and pier area to the town centre and surrounding streets of Walmer and Sholden, our mobile technician comes to you. Fast screen, battery, and charging port repairs completed at your home or workplace – no shop visit required.",
-    "introText": "Deal is a delightful seaside town between Dover and Sandwich, known for its Georgian architecture and award-winning high street. Our mobile iPhone repair service is available throughout Deal and the nearby areas, including Walmer. We bring screen repairs, battery replacements, and charging port fixes directly to your door, with most repairs completed in under 30 minutes. No need to travel – we come to you."
+    "heroTitle": "Deal iPhone Repair - Pier to Walmer, Personal & Professional",
+    "heroDescription": "CT14 coverage from Deal Pier and the conservation area seafront through to Walmer and Sholden. Mobile iPhone screen, battery and charging port repairs at your address.",
+    "introText": "Deal has been quietly winning hearts for years - voted the best place to live by The Sunday Times and praised for its unspoilt Georgian seafront, its independent high street, and the sense of community that larger towns have lost. The pier stretching out into the English Channel, the Tudor fortress of Deal Castle, and the conservation area streets full of pastel-painted cottages all contribute to a town that feels genuinely special. Walmer, with its own castle and residential streets stretching south toward Kingsdown, adds to the CT14 postcode area. What Deal does not have is a surplus of repair shops. The high street is proudly independent - bookshops, delis, vintage stores - and major chains have largely stayed away. That character is part of the appeal, but it does mean a cracked screen or failing battery sends you on a drive to Dover or Canterbury for a fix. Our mobile service is a natural fit for Deal's way of doing things: personal, local, and convenient. We visit homes along the seafront, cottages in the backstreets, and addresses in Walmer and Sholden with everything needed for screen, battery, and charging port repairs. One visit, one appointment, and your phone is working again.",
+    "localAreas": [
+      "Walmer",
+      "Sholden",
+      "Kingsdown",
+      "Upper Deal",
+      "Mill Hill",
+      "Great Mongeham",
+      "Ripple",
+      "Ringwould"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "A gust on Deal Pier or a stumble on the conservation-area flagstones can shatter any screen. We replace it at your seafront cottage or Walmer family home.",
+      "battery-replacement": "Photographing the pier at sunrise and using the phone for tide times all day drains power fast. We fit a new battery at your Middle Street or Sholden address.",
+      "charging-port-repair": "Salt-laden air off the English Channel corrodes port contacts along the Deal seafront. We clean or replace the connector at your CT14 home or workspace."
+    }
   },
   {
     "name": "New Romney",
@@ -315,9 +540,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in New Romney – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in New Romney? Whether you're in the town centre or in surrounding Romney Marsh villages like Lydd, Dymchurch, or Littlestone, our mobile technician travels to your location. Screen replacements, battery swaps, and charging port fixes – all done on-site.",
-    "introText": "New Romney sits at the heart of the Romney Marsh, and our mobile iPhone repair service ensures that residents don't need to travel far for quality repairs. We cover New Romney and the surrounding villages, visiting homes and workplaces to fix iPhones on the spot. Whether you need a screen replacement, a new battery, or a charging port repair, we'll come to you and have it sorted quickly and affordably."
+    "heroTitle": "New Romney & Romney Marsh iPhone Repair - We Drive to You",
+    "heroDescription": "Serving New Romney, Lydd, Dymchurch, Littlestone and the wider Romney Marsh. Mobile iPhone repair across this rural corner of Kent - no long drive to a shop needed.",
+    "introText": "Living on Romney Marsh means accepting a certain remoteness. The flat, windswept landscape stretching from Dymchurch's sea wall down through Littlestone-on-Sea, Lydd, and out toward Dungeness is unlike anywhere else in Kent - hauntingly beautiful but undeniably isolated. New Romney sits at the centre of this marshland community, a small town with a medieval church, a primary school, local shops, and the southern terminus of the Romney, Hythe and Dymchurch Railway. What it does not have is a phone repair shop. The nearest options are in Ashford or Folkestone, both a 20-to-30-minute drive across roads that can feel even longer in bad weather. For the farming families, holiday park workers, fishermen at Dungeness, and retirees who have chosen the Marsh for its peace and space, that journey is a significant ask when a phone breaks. Our mobile service was built for exactly these situations. We drive across the Marsh to wherever you are - a cottage in Old Romney, a caravan park in Dymchurch, a house on Littlestone seafront - and carry out screen, battery, and charging port repairs at your door. No wasted fuel, no wasted afternoon. Just a professional fix in a part of Kent that deserves proper service.",
+    "localAreas": [
+      "Littlestone-on-Sea",
+      "Dymchurch",
+      "Lydd",
+      "Old Romney",
+      "St Mary in the Marsh",
+      "Ivychurch",
+      "Greatstone",
+      "Dungeness"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Marsh winds and shingle paths around Dungeness are tough on phones. We replace your cracked screen at your Littlestone bungalow or Dymchurch holiday let.",
+      "battery-replacement": "Covering the vast Romney Marsh on foot or by car drains batteries quickly with GPS and signal searching. We fit a fresh cell at your New Romney or Lydd home.",
+      "charging-port-repair": "Fine sand from Greatstone beach and salt air off Dymchurch sea wall corrode ports over time. Our technician repairs the connector at your Marsh address."
+    }
   },
   {
     "name": "Hythe",
@@ -335,9 +575,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Hythe – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Hythe? From the historic high street and Royal Military Canal area to Saltwood and Palmarsh, our mobile technician comes to you. We fix cracked screens, replace batteries, and repair charging ports on the spot – no need to leave your home or office.",
-    "introText": "Hythe is a picturesque town on the Kent coast, forming one of the original Cinque Ports. Our mobile iPhone repair service covers Hythe and the surrounding areas, bringing fast repairs to your door. Whether your screen is damaged, your battery needs replacing, or your charging port has stopped working, we'll come to your home or workplace and complete the repair on-site – typically in less than 30 minutes."
+    "heroTitle": "Hythe iPhone Repair - Cinque Port Town, Doorstep Service",
+    "heroDescription": "From the Royal Military Canal to Saltwood and Palmarsh - mobile iPhone repair across Hythe and the surrounding CT21 area. Screens, batteries, charging ports.",
+    "introText": "One of the original Cinque Ports, Hythe wears its history proudly - from the Royal Military Canal that curves through the town to the medieval bones in the crypt of St Leonard's Church and the steep, winding streets leading up to Saltwood Castle. Today it is a pleasant residential town that blends its heritage with a strong local community, good schools, and proximity to both the coast and the countryside of the Kent Downs. The high street has a solid mix of independent shops and everyday essentials, but specialist services like phone repair have never been well represented here. Residents in Saltwood, Palmarsh, Seabrook, and the streets around the canal typically face a drive to Folkestone or Ashford when technology lets them down. The small-scale railway enthusiasts riding the RH&DR through town, the walkers heading out along the Saxon Shore Way, and the families enjoying the beach at Hythe Ranges all share the same dependency on a working phone for navigation, communication, and capturing the moment. Our technician comes to any address in the Hythe area, carrying quality parts for screen, battery, and charging port repairs. The job is done at your location during a single appointment - practical, efficient, and suited to a town that values substance over fuss.",
+    "localAreas": [
+      "Saltwood",
+      "Palmarsh",
+      "Seabrook",
+      "Pennypot",
+      "Lympne",
+      "Burmarsh",
+      "West Hythe",
+      "Botolph's Bridge"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Cracked your phone on the steep lanes up to Saltwood Castle or along the Royal Military Canal towpath? We repair the screen at your CT21 home or office.",
+      "battery-replacement": "RH&DR enthusiasts, Saxon Shore Way walkers, and Hythe Ranges visitors all drain batteries by lunchtime. A quick swap at your Seabrook or Palmarsh address fixes that.",
+      "charging-port-repair": "Canal-side dampness and coastal grit from the Hythe seafront accelerate port wear. We restore clean charging at your Saltwood cottage or Pennypot home."
+    }
   },
   {
     "name": "Tonbridge",
@@ -355,9 +610,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Tonbridge – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Tonbridge? Whether you're near the castle, in the high street area, or based in Hildenborough or Hadlow, our mobile repair technician will visit your location. Screen, battery, and charging port repairs – all completed on-site in under 30 minutes.",
-    "introText": "Tonbridge is a thriving town in west Kent, known for its Norman castle and excellent transport links to London. Our mobile iPhone repair service is available throughout Tonbridge and the surrounding villages, offering fast turnaround on screen replacements, battery swaps, and charging port fixes. We come to your home, office, or any other convenient location – no need to travel to a repair shop."
+    "heroTitle": "Tonbridge iPhone Repair - Castle Town, Quick Turnaround",
+    "heroDescription": "TN9, TN10 and TN11 postcodes covered - from Tonbridge High Street and the castle grounds to Hildenborough and Hadlow. iPhone repairs at your location.",
+    "introText": "Tonbridge punches above its weight as a commuter town. The fast train to London Bridge takes around 35 minutes, making it a magnet for professionals who want a Kent market-town lifestyle without losing easy access to the capital. The Norman castle overlooking the River Medway, the busy High Street with its mix of chains and independents, and the playing fields of Tonbridge School all give the town a distinctive character. Surrounding villages like Hildenborough, Hadlow, and East Peckham fall within the TN9, TN10, and TN11 postcodes and add a rural fringe where services can be harder to access. For Tonbridge commuters, a phone is not just a phone - it is a train ticket, a work email client, a navigation tool, and increasingly a payment method. When the screen cracks or the battery dies on the platform, the day unravels quickly. Our mobile technician serves the whole Tonbridge area, meeting you at home before your commute, at your workplace during the day, or anywhere else that fits your timetable. We handle screen damage, depleted batteries, and charging port issues with quality parts, and the work is completed during a single visit. No need to add a detour to Tunbridge Wells or Maidstone to your already busy schedule.",
+    "localAreas": [
+      "Hildenborough",
+      "Hadlow",
+      "East Peckham",
+      "Tudeley",
+      "Pembury",
+      "Capel",
+      "Golden Green",
+      "Five Oak Green"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Shattered your screen dashing for the London train or walking the castle grounds? We fix it at your Hildenborough home or High Street office before the next service.",
+      "battery-replacement": "Tonbridge commuters need full power from platform to Charing Cross and back. We replace the battery at your TN9 address so your phone lasts the whole round trip.",
+      "charging-port-repair": "Pocket lint from blazers at Tonbridge School and work bags on the train builds up in ports. We clear and repair the connector at your Hadlow or Tudeley home."
+    }
   },
   {
     "name": "Sheerness",
@@ -375,9 +645,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Sheerness – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Sheerness? Whether you're on the Isle of Sheppey near the high street, Bluetown, or the surrounding areas of Minster and Queenborough, our mobile technician will come to you. Fast screen, battery, and charging port repairs at your location.",
-    "introText": "Sheerness is the main town on the Isle of Sheppey, and our mobile iPhone repair service means residents no longer need to cross the bridge for quality repairs. We travel to homes and workplaces across Sheerness and the wider Sheppey area, fixing cracked screens, replacing batteries, and repairing charging ports on the spot. Most repairs are completed in under 30 minutes."
+    "heroTitle": "Sheerness & Sheppey iPhone Repair - Island Service, No Bridge Trip",
+    "heroDescription": "Covering Sheerness, Minster, Queenborough and all of the Isle of Sheppey. Mobile iPhone repair that saves you the drive over the Kingsferry Bridge.",
+    "introText": "The Isle of Sheppey has always been a place apart. Connected to the mainland by the Kingsferry Bridge, the island has its own rhythms and its own frustrations - and one of those frustrations is the limited range of specialist services available locally. Sheerness, the island's main town, has a high street, a leisure centre, and the remains of the Royal Dockyard, but phone repair shops are not something it has ever been well served for. That means residents in Bluetown, Mile Town, and Marine Town have traditionally faced a drive across the bridge to Sittingbourne or beyond whenever their iPhone develops a problem. Minster, Queenborough, Leysdown, and Eastchurch are even further from mainland services. Our mobile repair service changes that equation completely. We cross the bridge so you do not have to, visiting homes and workplaces across the entire island with parts and tools for screen replacements, battery fitting, and charging port repairs. Whether you work at the port, run a business on the island, or are simply at home in one of Sheppey's coastal communities, we bring professional iPhone repair to your door. The work is completed during a single visit, and you keep your phone throughout.",
+    "localAreas": [
+      "Minster-on-Sea",
+      "Queenborough",
+      "Halfway Houses",
+      "Leysdown-on-Sea",
+      "Eastchurch",
+      "Warden",
+      "Bluetown",
+      "Mile Town"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Island life is hard on phones — whether it broke at the port or on Leysdown beach, we cross the Kingsferry Bridge and fix the screen at your Sheppey address.",
+      "battery-replacement": "Port workers and caravan-park staff on Sheppey need phones that last long shifts. We fit a new battery at your Minster or Queenborough home without a mainland trip.",
+      "charging-port-repair": "Sheppey's salt air and coastal sand wear out charging ports faster than the mainland average. Our technician restores reliable charging at your Bluetown or Halfway Houses address."
+    }
   },
   {
     "name": "Snodland",
@@ -395,9 +680,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Snodland – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Snodland? Whether you're in the village centre, near the station, or in the surrounding areas of Holborough and Halling, our mobile repair technician comes directly to you. Screen replacements, battery swaps, and charging port repairs – all done on-site.",
-    "introText": "Snodland is a growing community in the Medway valley, well connected to Maidstone and the wider Kent area. Our mobile iPhone repair service covers Snodland and nearby villages, bringing fast and convenient repairs to your home or workplace. Whether you need a cracked screen fixed, a battery replaced, or a charging port repaired, we'll come to you and have it sorted quickly."
+    "heroTitle": "Snodland iPhone Repair - Medway Valley, Direct to Your Door",
+    "heroDescription": "Serving Snodland, Holborough Lakes, Halling and the Medway valley corridor. Mobile iPhone screen, battery and charging port repairs at your home or workplace.",
+    "introText": "Tucked into the Medway valley between the river and the North Downs, Snodland has grown significantly in recent years with developments like Holborough Lakes transforming the area. The town sits along the M20 corridor with its own railway station, giving residents quick access to Maidstone, West Malling, and London - but not much in the way of specialist repair services. The high street is modest, and the nearest dedicated phone repair options tend to be in Maidstone town centre. For families on the Holborough Lakes development, workers at the industrial estates near Halling, and long-term residents in the older parts of Snodland around the church and recreation ground, a phone problem means either a drive or a wait. Our mobile service is a straightforward solution. We visit addresses throughout Snodland and the surrounding villages - Birling, Halling, Cuxton - bringing everything needed to fix screen damage, replace a tired battery, or sort out a faulty charging port. The Medway valley can feel surprisingly rural despite being close to major roads, and having a technician who comes to you rather than expecting you to come to them makes genuine practical sense for people living along this stretch of Kent.",
+    "localAreas": [
+      "Holborough Lakes",
+      "Halling",
+      "Cuxton",
+      "Birling",
+      "Lads Farm",
+      "Ham Hill",
+      "Paddlesworth",
+      "Upper Halling"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Whether it cracked on the Holborough Lakes towpath or in the Snodland station car park, we repair your screen at home without a drive into Maidstone.",
+      "battery-replacement": "Medway valley commuters juggle train apps, work calls, and family logistics all day. A battery replacement at your Holborough Lakes or Halling home keeps up with the pace.",
+      "charging-port-repair": "Chalk and cement dust from the valley's industrial heritage still drifts through Snodland. We clear and fix charging ports at your Cuxton or Birling address."
+    }
   },
   {
     "name": "Aylesford",
@@ -415,9 +715,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Aylesford – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Aylesford? From the historic village and priory area to the modern developments and nearby business parks, our mobile technician will visit your location. We fix screens, replace batteries, and repair charging ports – all on the spot in under 30 minutes.",
-    "introText": "Aylesford is a historic village on the River Medway, just a short distance from Maidstone. Our mobile iPhone repair service covers Aylesford and the surrounding area, including the nearby retail and business parks. We visit homes and workplaces to carry out screen replacements, battery swaps, and charging port fixes – all completed on-site with no need to travel to a repair shop."
+    "heroTitle": "Aylesford iPhone Repair - Historic Village, Convenient Mobile Fix",
+    "heroDescription": "Covering Aylesford village, the Quarry Wood industrial estate, and the surrounding ME20 area. iPhone screen, battery and charging port repair at your location.",
+    "introText": "Aylesford claims to be one of the oldest continuously inhabited settlements in England, and the medieval bridge over the Medway with the Friars priory behind it is one of Kent's most photographed scenes. But this is not just a pretty village - the area around Aylesford is a significant employment hub, with the Quarry Wood industrial estate, numerous distribution centres along the M20, and the retail parks near the junction drawing workers from across the region. That mix of ancient village charm and modern commercial activity creates an unusual dynamic where a phone is equally likely to break while walking along the river as it is during a warehouse shift. The surrounding area takes in Ditton, Barming, and the edges of Larkfield, all within easy reach of our mobile technician. Rather than adding a trip to Maidstone town centre to an already packed day, you can have your iPhone repaired wherever you happen to be. We visit homes in the village, offices on the industrial estate, and anywhere else in the area with the parts to fix screens, swap batteries, and repair charging ports. Aylesford may have ancient roots, but its residents deserve a repair service that works on modern terms.",
+    "localAreas": [
+      "Ditton",
+      "Barming",
+      "Eccles",
+      "Burham",
+      "Blue Bell Hill",
+      "Pratling Street",
+      "Forstal",
+      "Little Preston"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Cracked your screen at the medieval bridge or during a warehouse shift at Quarry Wood? We replace it at your Aylesford village home or industrial-estate office.",
+      "battery-replacement": "Distribution-centre staff and Preston Hall visitors need all-day phone power. We fit a new battery at your Ditton semi or Blue Bell Hill cottage in twenty minutes.",
+      "charging-port-repair": "Warehouse dust from the Quarry Wood estate clogs ports over time. Our technician cleans or replaces the connector at your Eccles or Forstal home."
+    }
   },
   {
     "name": "West Malling",
@@ -435,9 +750,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in West Malling – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in West Malling? Whether you're in the village centre, near Kings Hill, or in the surrounding areas of East Malling and Larkfield, our mobile repair technician comes to you. Fast screen, battery, and charging port repairs completed at your home or workplace.",
-    "introText": "West Malling is an attractive village in the heart of Kent, close to the thriving Kings Hill development. Our mobile iPhone repair service is available throughout West Malling and the surrounding area, offering quick and affordable repairs at your doorstep. Whether your screen is cracked, your battery is failing, or your charging port has stopped working, we'll come to you and fix it on the spot – no shop visit needed."
+    "heroTitle": "West Malling & Kings Hill iPhone Repair - Village and Business Park",
+    "heroDescription": "Serving West Malling village, the Kings Hill development, East Malling and surrounding ME19 addresses. Professional iPhone repair brought to your door.",
+    "introText": "West Malling is a village that has found itself at the centre of one of Kent's most significant modern developments. Kings Hill, built on the former RAF West Malling airfield, now houses thousands of residents alongside major corporate offices, making it one of the busiest business parks in the county. The contrast is striking - step from Kings Hill's contemporary architecture into West Malling's medieval High Street with its Norman tower and independent shops, and you could be in a different century. Both communities, however, share the same reliance on mobile technology. Office workers at Kings Hill need their phones for Teams calls, email, and building access. Families in the village use theirs for school communications, local group chats, and managing daily life. Residents across East Malling, Larkfield, and Leybourne are in a similar position. Yet none of these areas have a dedicated phone repair presence - you would typically need to drive to Maidstone or Tonbridge. Our technician covers the whole ME19 area and beyond, visiting Kings Hill offices during working hours and residential addresses in the evenings and weekends. Screen replacements, battery swaps, and charging port repairs are all completed at your chosen location in a single appointment.",
+    "localAreas": [
+      "Kings Hill",
+      "East Malling",
+      "Leybourne",
+      "Offham",
+      "Addington",
+      "Ryarsh",
+      "Trottiscliffe",
+      "Wateringbury"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Dropped your phone in a Kings Hill office car park or on West Malling's medieval High Street? We replace the screen at your desk or your East Malling home.",
+      "battery-replacement": "Back-to-back Teams calls at Kings Hill and school runs via East Malling drain batteries by mid-afternoon. We swap the cell at your ME19 address between meetings.",
+      "charging-port-repair": "Corporate lanyards, laptop bags, and desk drawers at Kings Hill offices generate lint that blocks ports. We clear and repair the connector at your Leybourne or Offham home."
+    }
   },
   {
     "name": "Tunbridge Wells",
@@ -455,9 +785,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Tunbridge Wells – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Tunbridge Wells? Whether you're near The Pantiles, the Royal Victoria Place, or anywhere in the town centre, our mobile technician will come directly to you. Screen replacements, battery swaps, and charging port fixes – all completed on the spot.",
-    "introText": "Royal Tunbridge Wells is one of Kent's most prestigious towns, known for its elegant architecture and bustling high street. Our mobile iPhone repair service covers the whole of Tunbridge Wells and surrounding villages, bringing fast, affordable repairs to your home or workplace. From cracked screens to worn-out batteries, we arrive with everything needed and complete most repairs in under 30 minutes."
+    "heroTitle": "Royal Tunbridge Wells iPhone Repair - The Pantiles to Rusthall",
+    "heroDescription": "Covering TN1, TN2 and TN4 from The Pantiles and Mount Pleasant to Southborough, Rusthall and Langton Green. iPhone repairs worthy of the Royal prefix.",
+    "introText": "Royal Tunbridge Wells has carried its Royal prefix since the days of fashionable spa visitors, and the town retains an air of refinement that sets it apart from much of Kent. The Pantiles colonnade, Calverley Grounds, and the boutique-lined High Street attract visitors and residents who appreciate quality, while the surrounding areas of Rusthall, Southborough, Langton Green, and Bidborough provide a leafy residential setting that consistently ranks among the most desirable in the southeast. The TN1, TN2, and TN4 postcodes cover a surprisingly hilly and spread-out area, and despite the town's affluence, it has never hosted an Apple Store or major manufacturer's repair centre. That means a broken iPhone often involves either a postal service with days of waiting or a trip to a high-street chain that may not carry the right parts. Neither option suits the expectations of Tunbridge Wells residents, who tend to value personal service and professional standards. Our mobile technician fits that bill precisely. We visit homes in the period properties around Mount Pleasant, offices in the town centre, and addresses across the surrounding villages, carrying premium replacement screens, batteries, and charging port components. Every repair is completed at your location with the kind of individual attention that a town like Tunbridge Wells deserves.",
+    "localAreas": [
+      "Rusthall",
+      "Southborough",
+      "Langton Green",
+      "Bidborough",
+      "Speldhurst",
+      "Pembury",
+      "Hawkenbury",
+      "High Brooms"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "A slip on The Pantiles flagstones or a drop in Calverley Grounds can ruin any screen. We repair it at your Mount Pleasant townhouse or Rusthall family home.",
+      "battery-replacement": "Tunbridge Wells professionals expect their phone to last from the morning school run to the evening Pantiles stroll. We fit a new battery at your TN1 or TN2 address.",
+      "charging-port-repair": "Handbag debris and trouser-pocket grit from the boutique-lined High Street accumulate in ports over months. Our technician restores clean charging at your Southborough or Langton Green home."
+    }
   },
   {
     "name": "Dartford",
@@ -475,9 +820,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Dartford – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Dartford? Whether you're near the Bluewater Shopping Centre, Dartford town centre, or the business parks along the A2, our mobile technician comes to you. Fast, professional repairs at your home or workplace.",
-    "introText": "Dartford sits at the gateway to Kent, just south of the Thames crossing. Our mobile iPhone repair service is available throughout Dartford and the surrounding area, including Stone, Greenhithe, and Swanscombe. Whether your screen is cracked, your battery won't hold charge, or your charging port has stopped working, we'll travel to your location and fix it on the spot – often the same day you get in touch."
+    "heroTitle": "Dartford iPhone Repair - Gateway to Kent, At Your Location",
+    "heroDescription": "From Dartford town centre to Stone, Wilmington and the Bluewater area. DA1 and DA2 mobile iPhone repair - screens, batteries and charging ports fixed where you are.",
+    "introText": "Dartford sits right where London meets Kent, defined by the roar of traffic crossing the Dartford Crossing and the pull of Bluewater shopping centre just down the road. It is a town of commuters, shift workers, and families who live life at pace - dropping kids at school, catching the Fastrack bus, navigating the M25 junction, squeezing in shopping at The Orchard Theatre end of town between commitments. The DA1 and DA2 postcodes stretch from the town centre through Stone, Greenhithe, Wilmington, and out toward Joyden's Wood, covering a mix of Victorian terraces, post-war estates, and modern developments. With Bluewater so close, you might assume phone repair is easy to find - and it is, if you fancy queuing in a massive shopping centre and paying retail-park prices. For people who would rather have the repair come to them, our mobile service offers a different approach. We visit your home in Dartford, your workplace on the industrial estates, or any other convenient spot and handle the repair while you carry on with your day. Screen damage, battery issues, charging port faults - we bring the parts and tools to fix them properly, saving you the Bluewater car park battle entirely.",
+    "localAreas": [
+      "Stone",
+      "Wilmington",
+      "Greenhithe",
+      "Joydens Wood",
+      "Darenth",
+      "Bean",
+      "Sutton-at-Hone",
+      "Hawley"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Smashed your screen in the Bluewater car park or at an Orchard Theatre evening? We fix it at your Stone or Wilmington home — no need to queue at a mall kiosk.",
+      "battery-replacement": "Crossing queues, Fastrack commutes, and M25 navigation chew through batteries. We fit a replacement at your DA1 or DA2 home so your phone survives the Dartford grind.",
+      "charging-port-repair": "Construction-site dust near the Dartford Crossing and workshop debris from the industrial estates block ports. We clean or replace the connector at your Greenhithe or Hawley address."
+    }
   },
   {
     "name": "Gravesend",
@@ -495,9 +855,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Gravesend – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Gravesend? Whether you're near the town centre, Gravesend Promenade, or the Ebbsfleet area, our mobile repair technician comes directly to your door. Screen repairs, battery replacements, and charging port fixes – done on site.",
-    "introText": "Gravesend is a busy riverside town in north Kent with a rich history and a growing community. Our mobile iPhone repair service covers all of Gravesend and the surrounding areas, including Northfleet and Shorne. We come to your home, office, or wherever suits you best – fixing your iPhone quickly and affordably without the hassle of visiting a shop."
+    "heroTitle": "Gravesend iPhone Repair - Thames-Side Town, Riverside Service",
+    "heroDescription": "Serving DA11 and DA12 from the Thames promenade to Windmill Hill, Perry Street, Northfleet and Chalk. Mobile iPhone repairs at your Gravesend address.",
+    "introText": "Gravesend looks out across the Thames toward Tilbury, and that riverside position has shaped the town for centuries - from its role greeting ships arriving in London to the burial place of Pocahontas at St George's Church. Today the DA11 and DA12 postcodes encompass a diverse community spread from the town centre and its St George's shopping area up through Windmill Hill, Perry Street, and out to Chalk and Shorne in the east. Northfleet, with its own distinct identity and the Ebbsfleet International station nearby, adds another dimension. Gravesend is a town where people work hard - in the logistics firms along the river, the service industries in town, and the London offices reached by a short train ride from Gravesend station. A broken phone disrupts all of it: the commuter loses their ticket app, the delivery driver loses their route planner, the parent loses their link to school and family. Rather than adding another errand to an already full plate, our mobile technician comes to you. We repair screens, replace batteries, and fix charging ports at homes across Gravesend and the surrounding area, fitting around your schedule and completing everything during one visit. No queues, no waiting days for a postal return - just professional repair at your doorstep.",
+    "localAreas": [
+      "Northfleet",
+      "Perry Street",
+      "Chalk",
+      "Shorne",
+      "Windmill Hill",
+      "Riverview Park",
+      "Istead Rise",
+      "Singlewell"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Cracked your phone on the Thames promenade or outside St George's Centre? We repair the screen at your Windmill Hill or Perry Street home.",
+      "battery-replacement": "Gravesend commuters heading to London via the fast train need full charge by 7am. We fit a new battery at your DA11 home before you leave for the station.",
+      "charging-port-repair": "River-damp air and industrial grit from Northfleet's logistics yards take a toll on ports. Our technician fixes the issue at your Chalk or Singlewell address."
+    }
   },
   {
     "name": "Sevenoaks",
@@ -515,9 +890,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Sevenoaks – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Sevenoaks? Whether you're in the town centre, near Knole Park, or working from home in the surrounding villages, our mobile repair service comes to you. Fast screen, battery, and charging port repairs completed at your location.",
-    "introText": "Sevenoaks is an affluent market town on the western edge of Kent, surrounded by beautiful countryside and commuter villages. Our mobile iPhone repair service is available throughout Sevenoaks, Otford, Westerham, and the surrounding area. We come to you and complete most repairs in under 30 minutes – no need to travel to a shop or post your phone anywhere."
+    "heroTitle": "Sevenoaks iPhone Repair - Knole Park to Otford, Premium Mobile Service",
+    "heroDescription": "TN13 and TN14 coverage across Sevenoaks town, Riverhead, Seal, Otford and the commuter villages. iPhone repairs brought to your door with quality parts.",
+    "introText": "Sevenoaks is quintessential commuter-belt Kent. The fast train from Bat and Ball or Sevenoaks station puts London Bridge within 30 minutes, and the town's excellent schools, period properties, and access to Knole Park - one of the largest National Trust estates in the country - make it consistently popular with professional families. The Vine cricket ground in the centre of town, one of the oldest in England, speaks to a community that values tradition and quality. The TN13 and TN14 postcodes extend through Riverhead, Seal, Otford, and Kemsing, each a distinct village with its own character but all sharing the same reliance on mobile technology for the daily commute, school coordination, and remote working. Sevenoaks residents tend to own high-end devices and expect a repair service that matches. We understand that, which is why our technician uses premium components and treats every phone with the care it deserves. We visit addresses throughout the Sevenoaks area - detached houses along the Seal road, flats near the high street, home offices in Otford - and complete screen, battery, and charging port repairs during a single appointment. For a town where time is the most valuable commodity, having the repair come to you rather than the other way round makes all the difference.",
+    "localAreas": [
+      "Riverhead",
+      "Seal",
+      "Otford",
+      "Kemsing",
+      "Bat & Ball",
+      "Dunton Green",
+      "Bessels Green",
+      "Ide Hill"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Whether it shattered on a Knole Park deer walk or in the Vine cricket-ground car park, we replace the screen at your TN13 home or Riverhead office.",
+      "battery-replacement": "Sevenoaks commuters need juice from Bat & Ball station to London Bridge and back again. A fresh battery at your Otford or Seal home keeps the journey seamless.",
+      "charging-port-repair": "Leaf litter and muddy-walk debris from the North Downs creep into ports over autumn and winter. We restore clean charging at your Kemsing cottage or Dunton Green address."
+    }
   },
   {
     "name": "Chatham",
@@ -535,9 +925,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Chatham – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Chatham? Whether you're near the Pentagon Shopping Centre, Chatham Dockyard, or the universities on the Medway campus, our mobile technician comes to you. Screen replacements, battery swaps, and charging port repairs – all done at your location.",
-    "introText": "Chatham is one of the Medway Towns with a vibrant mix of shopping, history, and a large student population. Our mobile iPhone repair service covers the whole of Chatham and the wider Medway area, bringing fast, affordable repairs to your doorstep. Whether your screen is cracked, your battery is dying, or your charging port has failed, we fix it on site – usually in under 30 minutes."
+    "heroTitle": "Chatham iPhone Repair - Dockyard Town, Practical Solutions",
+    "heroDescription": "ME4 and ME5 coverage from the Historic Dockyard and Pentagon Centre to Luton, Wayfield and Walderslade. iPhone repair that comes to your Chatham location.",
+    "introText": "Chatham's identity was forged in the Royal Dockyard, and that practical, no-nonsense spirit persists in the town today. The Historic Dockyard is now a visitor attraction and film location, the Pentagon Centre anchors the town's retail offer, and the Universities at Medway campus has brought a student population that adds energy to the area. But Chatham is also a town of residential neighbourhoods - Luton on the hill, Wayfield with its community feel, Walderslade tucked against the North Downs - where everyday life revolves around family, work, and keeping connected. The ME4 and ME5 postcodes cover a town that climbs steeply from the river up into the suburbs, and not everyone has easy access to the town centre repair options. Students on tight budgets, military families with connections to the Dockyard's heritage, and working households across the estates all benefit from a repair service that saves them the trip. Our mobile technician visits anywhere in the Chatham area with the tools and parts to handle screen replacements, battery work, and charging port repairs. We complete everything during one appointment at your location - your front room, your student kitchen, or your office. Straightforward, professional, and built for a town that respects getting things done properly.",
+    "localAreas": [
+      "Luton",
+      "Wayfield",
+      "Walderslade",
+      "Capstone",
+      "Horsted",
+      "Princes Park",
+      "Brompton",
+      "Ordnance Terrace"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Dropped your phone at the Historic Dockyard or rushing through the Pentagon Centre? We fix the screen at your Luton hilltop home or Walderslade address.",
+      "battery-replacement": "Medway campus students and Dockyard museum staff both need phones that last a full day. We swap the battery at your Wayfield flat or Brompton barracks-area home.",
+      "charging-port-repair": "Dockyard dust during visitor season and workshop debris from Chatham's industrial past clog charging ports. We clear and repair the connector at your Capstone or Horsted address."
+    }
   },
   {
     "name": "Rochester",
@@ -555,9 +960,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Rochester – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Rochester? Whether you're near Rochester Cathedral, the High Street, or anywhere in the Medway Towns, our mobile repair service comes directly to your door. Fast, professional iPhone repairs without the wait.",
-    "introText": "Rochester is a historic city in the Medway area, known for its cathedral, castle, and charming high street. Our mobile iPhone repair service is available throughout Rochester and the surrounding areas. We come to your home, workplace, or café and complete most repairs in under 30 minutes. From cracked screens to faulty charging ports, we've got you covered."
+    "heroTitle": "Rochester iPhone Repair - Cathedral City, Personal Touch",
+    "heroDescription": "Serving ME1 and ME2 from Rochester Cathedral and the Dickens High Street across to Strood and Borstal. Mobile iPhone repair at your Rochester address.",
+    "introText": "Rochester and Charles Dickens are inseparable - the cathedral city that inspired some of English literature's greatest scenes still celebrates its connection through festivals, a dedicated museum, and the atmospheric High Street that feels remarkably unchanged. Cross the river to Strood and the character shifts to something more suburban and commercial, but the ME1 and ME2 postcodes together form a community that blends historic charm with modern Medway life. Rochester's High Street draws visitors year-round, its castle and cathedral remain iconic, and the residential streets climbing the hill toward Borstal and out along the Maidstone Road house families and professionals who chose this area for its character and connections. Despite being part of the Medway conurbation, Rochester maintains a slightly separate, more genteel identity - and its residents often prefer a service that reflects that. A phone repair shop in a busy shopping centre does not quite fit the bill. Our mobile technician offers something more personal, visiting your Rochester address with quality parts and the skill to handle screen damage, failing batteries, and charging port problems. Whether you live in one of the Georgian townhouses near the cathedral, a family home in Strood, or a flat overlooking the Medway, the repair happens at your location on your terms.",
+    "localAreas": [
+      "Strood",
+      "Borstal",
+      "Wainscott",
+      "Frindsbury",
+      "Cuxton",
+      "Hoo St Werburgh",
+      "Cliffe",
+      "High Halstow"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "A stumble on the Cathedral precincts or the Dickens High Street cobbles can crack any screen. We replace it at your Strood semi or Borstal hilltop home.",
+      "battery-replacement": "Between Dickens Festival selfies and High Street browsing, Rochester days drain batteries fast. We fit a replacement at your ME1 or ME2 home in under thirty minutes.",
+      "charging-port-repair": "Medway river dampness and dust from Rochester's historic stone streets affect port contacts over time. Our technician fixes charging at your Wainscott or Frindsbury home."
+    }
   },
   {
     "name": "Gillingham",
@@ -575,9 +995,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Gillingham – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Gillingham? Whether you're near the town centre, Gillingham Pier, or the residential areas of Rainham and Hempstead, our mobile technician comes to you. Screen, battery, and charging port repairs – all done on site.",
-    "introText": "Gillingham is the largest of the Medway Towns, with a diverse community and busy high street. Our mobile iPhone repair service covers all of Gillingham and the surrounding areas, offering quick and affordable repairs at your home or workplace. No need to queue in a shop or post your phone away – we come to you and fix it on the spot."
+    "heroTitle": "Gillingham iPhone Repair - Medway's Biggest Town, Full Coverage",
+    "heroDescription": "ME7 and ME8 postcodes covered from Gillingham town centre to Rainham, Hempstead, Wigmore and Parkwood. iPhone repair delivered to your address.",
+    "introText": "Gillingham is the most populous of the Medway towns, and its residential sprawl across the ME7 and ME8 postcodes tells the story of decades of growth. From the terraced streets near the town centre and the football ground, through the established suburbs of Hempstead and Wigmore, out to Parkwood on the southern edge, and eastward to Rainham with its own distinct high street and community - this is a town built around families, schools, and daily routines. Gillingham does not have the tourist draw of Rochester or the student scene of Chatham, but that is precisely why its residents value practical services that save them time. A parent juggling the school run, work, and household responsibilities does not need the added stress of finding parking in Chatham to get a phone fixed. A shift worker at one of the Medway industrial estates cannot afford to be without their device for the days a postal repair takes. Our mobile service addresses both of those situations. We visit any address in Gillingham - houses in Rainham, flats in Hempstead, bungalows in Wigmore - and carry out screen, battery, and charging port repairs while you wait. The work is completed at your location, with quality parts, and without the runaround that bigger operations often involve.",
+    "localAreas": [
+      "Rainham",
+      "Hempstead",
+      "Wigmore",
+      "Parkwood",
+      "Twydall",
+      "Grange",
+      "Lower Rainham",
+      "Bredhurst"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Whether it cracked at the Gillingham FC ground or in the Hempstead Valley shopping centre, we replace your screen at any ME7 or ME8 address.",
+      "battery-replacement": "Parents juggling Rainham school runs and Hempstead Valley errands need a phone that lasts. A new battery at your Wigmore or Parkwood home keeps the day on track.",
+      "charging-port-repair": "Kids' crumbs, school-bag lint, and Medway rain moisture all find their way into ports. We clean and repair the connector at your Twydall or Lower Rainham home."
+    }
   },
   {
     "name": "Tenterden",
@@ -595,9 +1030,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Tenterden – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Tenterden? Whether you’re strolling along the tree-lined high street, visiting Tenterden Vineyard, or catching a ride on the Kent & East Sussex Railway, our mobile technician will come to you. Screen replacements, battery swaps, and charging port repairs – all completed on the spot at your location.",
-    "introText": "Tenterden is often called the ‘Jewel of the Weald’, and it’s easy to see why – with its elegant high street, independent shops, and the famous Kent & East Sussex Railway drawing visitors year-round. Our mobile iPhone repair service brings fast, professional fixes directly to homes and workplaces across Tenterden and the surrounding Wealden villages. Whether you’ve cracked your screen near the Woolpack Corner or your battery is struggling after a day at Tenterden Vineyard, we’ll travel to you and complete the repair on-site, typically in under 30 minutes. No need to drive to Ashford or Maidstone for a repair shop – we bring the service to your door."
+    "heroTitle": "Tenterden iPhone Repair - Jewel of the Weald, At Your Door",
+    "heroDescription": "Serving Tenterden's tree-lined high street, surrounding Wealden villages and the TN30 area. iPhone screen, battery and charging port repairs without the drive to Ashford.",
+    "introText": "They call Tenterden the Jewel of the Weald, and the wide, tree-lined high street with its handsome buildings, independent retailers, and the steam trains of the Kent and East Sussex Railway pulling into the station certainly justify the title. This is a town that feels properly English in the best sense - unhurried, well-kept, and proud of its identity. The TN30 postcode stretches into the surrounding Wealden countryside, taking in hamlets and farmsteads where the nearest significant retail centre is Ashford, a good 20 minutes away along winding A-roads. For Tenterden residents, that distance is part of the appeal - until something breaks. A cracked iPhone screen or a battery that will not hold charge suddenly means planning a trip along the A28 to find a repair shop, losing an afternoon to what should be a quick fix. Our mobile technician eliminates that journey entirely. We drive to Tenterden and the surrounding villages, visiting your home, your shop on the high street, or your workspace and completing the repair at your location. Screen damage, battery degradation, charging port faults - all handled with professional parts and completed during a single appointment. Tenterden deserves services that match its character: reliable, personal, and delivered with care.",
+    "localAreas": [
+      "St Michaels",
+      "Rolvenden",
+      "Smallhythe",
+      "Biddenden",
+      "High Halden",
+      "Wittersham",
+      "Appledore",
+      "Woodchurch"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Dropped your phone stepping off the Kent & East Sussex Railway or browsing the High Street antique shops? We fix the screen at your Wealden farmhouse or Tenterden townhouse.",
+      "battery-replacement": "A day exploring the Tenterden vineyards or photographing Smallhythe Place drains batteries before the drive home. We swap the cell at your Rolvenden or Biddenden address.",
+      "charging-port-repair": "Orchard dust, vineyard soil, and country-lane mud from the Weald work into ports over the seasons. Our technician restores reliable charging at your TN30 address."
+    }
   },
   {
     "name": "Cranbrook",
@@ -615,9 +1065,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Cranbrook – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Cranbrook? From the charming high street and the iconic Union Windmill to the surrounding villages of Sissinghurst and Goudhurst, our mobile technician comes directly to your door. Fast screen, battery, and charging port repairs without leaving home.",
-    "introText": "Cranbrook is a beautiful market town nestled in the Weald of Kent, best known for its striking Union Windmill – the finest smock mill in England – and its strong community spirit. Our mobile iPhone repair service covers Cranbrook and the picturesque surrounding villages including Sissinghurst, Goudhurst, and Benenden. Whether your screen has cracked while exploring the local countryside or your battery has given up during a visit to Sissinghurst Castle Garden, our technician will travel to your home or workplace and fix your iPhone on the spot. Most repairs take less than 30 minutes, saving you a trip to the nearest town centre."
+    "heroTitle": "Cranbrook & Sissinghurst iPhone Repair - Wealden Villages Covered",
+    "heroDescription": "Mobile iPhone repair across Cranbrook, Sissinghurst, Goudhurst, Benenden and the TN17 countryside. Professional screen, battery and charging port service at your door.",
+    "introText": "Stand beneath Cranbrook's Union Windmill - the finest working smock mill in England - and you get a sense of how this Wealden town has always balanced tradition with self-sufficiency. The TN17 postcode covers not just Cranbrook itself but a constellation of beautiful villages: Sissinghurst with its famous castle garden, Goudhurst perched on its hilltop, Benenden with its green and renowned school, Frittenden, and Staplehurst at the eastern fringe. This is deep rural Kent, where lanes twist between orchards and oast houses, and the nearest Apple Store might as well be on another planet. Residents here tend to be resourceful, but even resourcefulness has its limits when a phone screen shatters or a battery gives out mid-afternoon. Driving to Tunbridge Wells, Ashford, or Maidstone consumes the better part of a day once you factor in traffic on the A229 or A262. Our service is designed to save that time. We come to addresses across the Cranbrook area - farmhouses down single-track lanes, cottages on the village green, or the shops and businesses along Cranbrook's Stone Street. We bring quality screen, battery, and charging port components and complete every repair at your location. For communities where popping to a repair shop means a 40-minute round trip minimum, having a technician drive to you is not a luxury - it is the practical choice.",
+    "localAreas": [
+      "Sissinghurst",
+      "Goudhurst",
+      "Benenden",
+      "Frittenden",
+      "Staplehurst",
+      "Hawkhurst",
+      "Sandhurst",
+      "Flimwell"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "A drop beneath the Union Windmill or on the path to Sissinghurst Castle garden can ruin your screen. We repair it at your TN17 cottage or Goudhurst hilltop home.",
+      "battery-replacement": "Wealden village life means weak signal in spots, which hammers battery life. We fit a new cell at your Benenden farmhouse or Frittenden lane-end cottage.",
+      "charging-port-repair": "Rural dust from hop gardens and orchard lanes fills ports gradually. Our technician cleans or replaces the connector at your Staplehurst home or Hawkhurst address."
+    }
   },
   {
     "name": "Swanley",
@@ -635,9 +1100,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Swanley – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Swanley? Whether you’re near Swanley Park, the town centre, or the residential streets around Hextable and Crockenhill, our mobile technician will come to you. Cracked screens, battery replacements, and charging port fixes – all done at your location.",
-    "introText": "Swanley is a well-connected commuter town in north Kent, sitting close to the M25 and M20 with easy access to London and the rest of the county. Our mobile iPhone repair service is ideal for busy Swanley residents who don’t have time to travel to a repair shop. Whether you’ve damaged your screen at Swanley Park, your battery is letting you down on the commute, or your charging port has stopped working at home, we’ll come to your door and fix it on the spot. We also cover nearby areas including Hextable, Crockenhill, and Farningham – with most repairs completed in under 30 minutes."
+    "heroTitle": "Swanley iPhone Repair - M25 Corridor, Zero Detours",
+    "heroDescription": "Covering Swanley, Hextable, Crockenhill, Farningham and the BR8 postcode area. Mobile iPhone screen, battery and charging port repairs - fitted to your commuter schedule.",
+    "introText": "Swanley sits at a crossroads - the M25 passes to the north, the M20 is a short drive south, and trains from Swanley station reach London Victoria in under half an hour. That connectivity is the town's defining feature, making it home to thousands of commuters who spend their days in London and their evenings in the residential streets around Swanley Park, Hextable, and Crockenhill. It is a practical, no-frills kind of place where people value convenience and efficiency. The BR8 postcode area does not have a huge range of specialist services - most serious shopping and errands send residents toward Bluewater, Dartford, or Sevenoaks. Adding a phone repair trip to that list is the last thing a busy commuter needs, especially when the phone itself is essential for the daily journey. Train tickets, work emails, calendar alerts, contactless payments at the station kiosk - all of it stops when the screen cracks or the battery dies. Our mobile technician meets you where you are, whether that is your house in Swanley before the morning rush, your workplace during a break, or your home in Farningham at the weekend. We carry parts for screen replacements, battery fitting, and charging port repairs, and finish the job in a single visit. No detour to a shopping centre, no days without your phone - just a quick, professional fix that respects how little spare time commuter life actually leaves you.",
+    "localAreas": [
+      "Hextable",
+      "Crockenhill",
+      "Farningham",
+      "Eynsford",
+      "Swanley Village",
+      "Pedham Place",
+      "Birchwood",
+      "Highlands"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Cracked your screen dashing for the Victoria train or while the kids played in Swanley Park? We fix it at your Hextable home or Crockenhill cottage.",
+      "battery-replacement": "The M25 commute and London working day demand all-day battery life. We replace the cell at your BR8 home before the morning rush or after the evening return.",
+      "charging-port-repair": "Motorway-corridor grit and commuter-bag debris accumulate in ports over weeks. We clean and repair the connector at your Farningham or Swanley Village address."
+    }
   },
   {
     "name": "Paddock Wood",
@@ -655,9 +1135,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Paddock Wood – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Paddock Wood? Whether you’re near the station, the village centre, or in the surrounding hop garden countryside, our mobile repair technician comes directly to you. Screen replacements, battery swaps, and charging port repairs – all completed on-site.",
-    "introText": "Paddock Wood is a friendly town in the heart of the Weald, surrounded by orchards and hop gardens that reflect Kent’s proud agricultural heritage. With its busy rail station connecting to London and Tonbridge, Paddock Wood is home to many commuters who rely on their iPhones every day. Our mobile repair service brings fast, professional iPhone fixes straight to your home or workplace in Paddock Wood and the surrounding villages including Five Oak Green and Beltring. Whether your screen is cracked, your battery is failing, or your charging port needs attention, we’ll have it sorted on the spot – no need to travel elsewhere for a repair."
+    "heroTitle": "Paddock Wood iPhone Repair - Hop Country, Home Service",
+    "heroDescription": "Serving Paddock Wood, Five Oak Green, Beltring and the surrounding TN12 orchards and villages. iPhone screen, battery and charging port repair at your address.",
+    "introText": "Paddock Wood grew up around the railway junction where the Medway Valley line meets the main Tonbridge-to-Ashford route, and the station remains central to daily life here. Commuters heading to London, Tonbridge, or Maidstone pass through every morning, phones in hand for tickets and timetables. Beyond the station, Paddock Wood is surrounded by the hop gardens and orchards that earned Kent its Garden of England title - a landscape of oast houses, fruit farms, and quiet lanes stretching out toward Five Oak Green, Beltring, and the villages of the Low Weald. The TN12 postcode covers a wide area with a distinctly rural feel once you leave the town centre, and dedicated repair services are virtually non-existent locally. The choice has traditionally been a drive to Tonbridge or Tunbridge Wells, or the inconvenience of posting your phone to a faceless repair company and waiting days for its return. Neither suits the rhythm of life here, where orchardists, small business owners, and families all depend on their phones but have limited time for errands outside the immediate area. Our technician drives to Paddock Wood and the surrounding villages, arriving at your home or workplace with the parts to handle screen damage, battery problems, and charging port repairs. One visit, one appointment, and your phone is working again without you having left the house.",
+    "localAreas": [
+      "Five Oak Green",
+      "Beltring",
+      "Collier Street",
+      "Marden",
+      "Horsmonden",
+      "Brenchley",
+      "Matfield",
+      "Yalding"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Whether it broke at the railway junction or in the hop gardens during picking season, we replace your screen at your TN12 home or orchard-side office.",
+      "battery-replacement": "Fruit-farm workers and rural commuters depend on phones for logistics and train times. We swap the battery at your Five Oak Green or Beltring address in twenty minutes.",
+      "charging-port-repair": "Hop-garden soil, orchard dust, and harvest-season debris clog charging ports across the TN12 area. Our technician cleans or replaces the connector at your door."
+    }
   },
   {
     "name": "Edenbridge",
@@ -675,9 +1170,24 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Edenbridge – Mobile Service Across Kent",
-    "heroDescription": "Need an iPhone repair in Edenbridge? From the historic high street and the River Eden to the surrounding countryside of Hever and Marsh Green, our mobile technician travels to your location. Fast screen, battery, and charging port repairs at your home or workplace.",
-    "introText": "Edenbridge is a charming market town tucked into the south-western corner of Kent, close to the Surrey and Sussex borders. Known for its medieval high street, the River Eden, and nearby Hever Castle, the town has a quiet, rural character that makes a trip to a repair shop inconvenient. That’s where our mobile iPhone repair service comes in – we travel directly to homes and workplaces across Edenbridge and surrounding villages like Hever, Four Elms, and Marsh Green. Whether your screen is cracked or your battery won’t last the day, our technician will fix it on-site in under 30 minutes, saving you the journey to Sevenoaks or Tunbridge Wells."
+    "heroTitle": "Edenbridge iPhone Repair - Kent's Western Edge, Fully Served",
+    "heroDescription": "Covering Edenbridge, Hever, Four Elms, Marsh Green and the TN8 area near the Surrey and Sussex borders. Mobile iPhone repair without the drive to Sevenoaks.",
+    "introText": "Edenbridge occupies a quiet corner of Kent where the county brushes up against Surrey and Sussex, and the River Eden winds through a landscape of fields, woodland, and scattered farmsteads. Hever Castle, the childhood home of Anne Boleyn, draws visitors to the area, but day-to-day life in Edenbridge is defined more by its village-scale high street, its two railway stations, and the strong sense of community that comes from being slightly off the beaten track. The TN8 postcode extends through Hever, Four Elms, Marsh Green, and Cowden, each a small settlement where the nearest significant town is either Sevenoaks to the north or Tunbridge Wells to the southeast - both involving a cross-country drive that nobody wants to make for a phone repair. Edenbridge residents are used to this geographic reality and appreciate services that come to them. Our mobile technician does exactly that, visiting homes and workplaces throughout the Edenbridge area with professional-grade components for screen, battery, and charging port repairs. Whether you live in the town itself, in a cottage near Hever station, or on one of the farms dotting the Eden valley, we bring the repair to your location and complete it during a single visit. No need to navigate the B2026 to Sevenoaks or fight for parking in Tunbridge Wells - the fix comes to you.",
+    "localAreas": [
+      "Hever",
+      "Four Elms",
+      "Marsh Green",
+      "Cowden",
+      "Chiddingstone",
+      "Penshurst",
+      "Bough Beech",
+      "Markbeech"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Dropped your phone at Hever Castle or on the footpath along the River Eden? We replace the screen at your TN8 cottage without the drive to Sevenoaks.",
+      "battery-replacement": "Weak rural signal around Four Elms and Cowden forces your phone to work harder, draining the battery by mid-afternoon. We fit a new one at your village address.",
+      "charging-port-repair": "Country mud, bridleway grit, and pollen from the Eden valley fields block ports over time. Our technician clears and repairs the connector at your Marsh Green or Chiddingstone home."
+    }
   },
   {
     "name": "Larkfield",
@@ -695,8 +1205,23 @@
       "battery-replacement",
       "charging-port-repair"
     ],
-    "heroTitle": "iPhone Repair in Larkfield – Mobile Service Across Kent",
-    "heroDescription": "Looking for iPhone repair in Larkfield? Whether you’re near the Larkfield Leisure Centre, the local shops, or in the residential streets connecting to West Malling and Aylesford, our mobile technician comes to you. Screen, battery, and charging port repairs – all done on-site.",
-    "introText": "Larkfield is a thriving suburban area in the Medway valley, conveniently positioned between West Malling and Maidstone with excellent access to the M20. Its growing residential community and proximity to local business parks mean many residents depend on their iPhones for work and daily life. Our mobile iPhone repair service covers all of Larkfield and the neighbouring areas including Ditton, East Malling, and Leybourne. Whether you’ve cracked your screen near Larkfield Leisure Centre or your battery is struggling at home, we’ll come to your door and complete the repair on the spot – typically in less than 30 minutes."
+    "heroTitle": "Larkfield & Ditton iPhone Repair - M20 Corridor, Quick Fix",
+    "heroDescription": "Mobile iPhone repair across Larkfield, Ditton, East Malling and Leybourne. Screen, battery and charging port service at your home or workplace along the M20 corridor.",
+    "introText": "Larkfield sits in the heart of the Medway valley's M20 corridor, a suburban community that has grown steadily alongside the motorway and the employment opportunities it brings. The area blends into neighbouring Ditton, East Malling, and Leybourne, creating a continuous residential stretch between West Malling and Maidstone where families, commuters, and local workers form a sizeable population. Larkfield Leisure Centre provides a community focal point, and the New Hythe Lane retail area covers everyday shopping needs, but specialist services like phone repair have never established a strong presence here. Most residents default to a trip into Maidstone town centre, which means traffic, parking, and time spent waiting - all for a repair that could be done at your kitchen table. That is exactly what our mobile service offers. We visit addresses throughout Larkfield and the surrounding areas, arriving with the components and expertise to fix cracked screens, replace worn-out batteries, and repair damaged charging ports. The M20 corridor is designed for movement and efficiency, and our service matches that principle - we come to you, complete the work, and leave you with a fully functional phone. No side trips, no lost mornings, and no compromise on the quality of parts or workmanship.",
+    "localAreas": [
+      "Ditton",
+      "East Malling",
+      "Leybourne",
+      "New Hythe",
+      "Lunsford",
+      "Brookfield",
+      "Millhall",
+      "Snodland Road"
+    ],
+    "serviceDescriptions": {
+      "screen-repair": "Smashed your screen at Larkfield Leisure Centre or in the New Hythe Lane retail park? We replace it at your Ditton home or East Malling workplace.",
+      "battery-replacement": "M20 corridor commuters and Leybourne families need phones that last from the school gate to the office and back. We fit a new battery at your doorstep.",
+      "charging-port-repair": "Retail-park receipts, gym-bag lint, and car-console dust from the M20 commute all clog ports. Our technician fixes the issue at your East Malling or Lunsford address."
+    }
   }
 ]
